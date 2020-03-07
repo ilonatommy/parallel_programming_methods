@@ -15,9 +15,9 @@ void do_MPI_Send(int from_proc, int to_proc, int* buf, int buf_size, int value, 
 
 void do_MPI_Recv(int from_proc, int to_proc, int* buf, int buf_size, MPI_Status* status, int value, bool verbose)
 {
+    int i;
     if(verbose)
     {
-        int i = 0;
         for(i=0; i<buf_size; i++)
             buf[i] = -1;
     }
@@ -59,21 +59,18 @@ int main (int argc, char * argv[])
     }
     int pow = 0;
     int value = 0;
-
-    //create timer
-    clock_t t;
-    double total_t = 0;
     int max_iter = 500;
+    double elapsed_time, start_time;
     for(pow=10; pow < 30; pow+=2)
     {
         buf_size = 2<<pow;
         buf = realloc(buf, sizeof(int) * buf_size);
-        int test_i;
         
         //start measuring time (in seconds, based on the buffor size):
         MPI_Barrier(MPI_COMM_WORLD);
         if (rank == 0) 
-        {
+        {   
+            int i;
             start_time = MPI_Wtime();
             for (i = 0; i < max_iter; ++i)
             {
@@ -88,15 +85,16 @@ int main (int argc, char * argv[])
         //start measuring throughput
         MPI_Barrier(MPI_COMM_WORLD);
         if (rank == 1) 
-        {   
+        {
+            int i;   
             start_time = MPI_Wtime();
-            for (i = 0; i < n; ++i)
+            for (i = 0; i < max_iter; ++i)
             {   
                 do_MPI_Send(rank-1, rank, buf, buf_size, value, false);
                 do_MPI_Recv(rank-1, rank, buf, buf_size, &status, value, false);
             }
             elapsed_time = MPI_Wtime() - start_time;
-            printf("%d ping-pongs in %g seconds, ", n, elapsed_time);
+            printf("%d ping-pongs in %g seconds, ", max_iter, elapsed_time);
             printf(" for an average message time of %g\n", (sizeof(int) * buf_size)/ (elapsed_time/(2*max_iter)));
         }
         value++;    
