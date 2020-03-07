@@ -28,7 +28,7 @@ int main(int argc, char** argv) {
            for (i = 0; i < n; ++i)
            {   
                k[0] = i;
-               MPI_Send(k, len, MPI_INT, 1, tag, MPI_COMM_WORLD);
+               MPI_Rsend(k, len, MPI_INT, 1, tag, MPI_COMM_WORLD);
                MPI_Recv(k, len, MPI_INT, 1, tag, MPI_COMM_WORLD, &status);
                if (k[0] != i) printf("invalid pong received\n");
            }   
@@ -43,8 +43,9 @@ int main(int argc, char** argv) {
            int k[len];
            start_time = MPI_Wtime();
            for (i = 0; i < n; ++i)
-    	   {  k[0] = i;
-              MPI_Send(k, len, MPI_INT, 0, tag, MPI_COMM_WORLD);
+    	   {  
+              k[0] = i;
+              MPI_Rsend(k, len, MPI_INT, 0, tag, MPI_COMM_WORLD);
               MPI_Recv(k, len, MPI_INT, 0, tag, MPI_COMM_WORLD, &status);
        	      if (k[0] != i) printf("invalid pong received\n");
            }

@@ -13,7 +13,8 @@ int main(int argc, char** argv) {
     int         tag = 123;
     int         n = 10000;   /* number of ping-pong's back and forth */
     int         i;
-    MPI_Status  status; 
+    MPI_Status  status;
+    MPI_Request req1, req2; 
     double      start_time, elapsed_time;
    
     MPI_Init(&argc, &argv);
@@ -28,8 +29,9 @@ int main(int argc, char** argv) {
            for (i = 0; i < n; ++i)
            {   
                k[0] = i;
-               MPI_Send(k, len, MPI_INT, 1, tag, MPI_COMM_WORLD);
-               MPI_Recv(k, len, MPI_INT, 1, tag, MPI_COMM_WORLD, &status);
+               MPI_Isend(k, len, MPI_INT, 1, tag, MPI_COMM_WORLD,&req1);
+               MPI_Irecv(k, len, MPI_INT, 1, tag, MPI_COMM_WORLD, &req2);
+               MPI_Wait(&req1, &status);
                if (k[0] != i) printf("invalid pong received\n");
            }   
   	 elapsed_time = MPI_Wtime() - start_time;
@@ -44,14 +46,17 @@ int main(int argc, char** argv) {
            start_time = MPI_Wtime();
            for (i = 0; i < n; ++i)
     	   {  k[0] = i;
-              MPI_Send(k, len, MPI_INT, 0, tag, MPI_COMM_WORLD);
-              MPI_Recv(k, len, MPI_INT, 0, tag, MPI_COMM_WORLD, &status);
+              MPI_Isend(k, len, MPI_INT, 0, tag, MPI_COMM_WORLD, &req1);
+              MPI_Irecv(k, len, MPI_INT, 0, tag, MPI_COMM_WORLD, &req2);
+              MPI_Wait(&req2, &status);
        	      if (k[0] != i) printf("invalid pong received\n");
            }
            elapsed_time = MPI_Wtime() - start_time;
-           printf("for an average messageof size %lu bandwidth of %g Mbit/s\n", 8*sizeof(k), 8*sizeof(k)/ (1000000 * elapsed_time/(2*n)));
+           printf("for an average messageof size %lu bandwidth of %g Mbit/s\n",8* sizeof(k),8* sizeof(k)/ (1000000 * elapsed_time/(2*n)));
            fflush(stdout);
        }
+     MPI_Wait(&req1, &status);
+     MPI_Wait(&req2, &status);
      MPI_Finalize();
      return 0;
 } 
