@@ -1,0 +1,131 @@
+\documentclass[10pt,english, openany]{book}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Loading packages that alter the style
+\usepackage[]{graphicx}
+\usepackage[]{color}
+\usepackage{alltt}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\setcounter{secnumdepth}{3}
+\setcounter{tocdepth}{3}
+\setlength{\parskip}{\smallskipamount}
+\setlength{\parindent}{0pt}
+
+% Set page margins
+\usepackage[top=100pt,bottom=100pt,left=68pt,right=66pt]{geometry}
+
+% Package used for placeholder text
+\usepackage{lipsum}
+
+% Prevents LaTeX from filling out a page to the bottom
+\raggedbottom
+
+% Adding both languages
+\usepackage[english, italian]{babel}
+
+% All page numbers positioned at the bottom of the page
+\usepackage{fancyhdr}
+\fancyhf{} % clear all header and footers
+\fancyfoot[C]{\thepage}
+\renewcommand{\headrulewidth}{0pt} % remove the header rule
+\pagestyle{fancy}
+
+% Changes the style of chapter headings
+\usepackage{titlesec}
+\titleformat{\chapter}
+   {\normalfont\LARGE\bfseries}{\thechapter.}{1em}{}
+% Change distance between chapter header and text
+\titlespacing{\chapter}{0pt}{50pt}{2\baselineskip}
+
+% Adds table captions above the table per default
+\usepackage{float}
+\floatstyle{plaintop}
+\restylefloat{table}
+
+% Adds space between caption and table
+\usepackage[tableposition=top]{caption}
+
+% Adds hyperlinks to references and ToC
+\usepackage{hyperref}
+\hypersetup{hidelinks,linkcolor = black} % Changes the link color to black and hides the hideous red border that usually is created
+
+% If multiple images are to be added, a folder (path) with all the images can be added here 
+\graphicspath{ {Figures/} }
+
+% Separates the first part of the report/thesis in Roman numerals
+\frontmatter
+\usepackage{listings}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Starts the document
+\begin{document}
+
+%%% Selects the language to be used for the first couple of pages
+\selectlanguage{english}
+
+%%%%% Adds the title page
+\begin{titlepage}
+	\clearpage\thispagestyle{empty}
+	\centering
+	\vspace{0.5cm}    
+    \centering \includegraphics[scale=0.5]{agh.jpg}    
+	\vspace{0.5cm}   
+	
+		\vspace{2cm}
+	{\huge \textbf{Metody programowania równoległego}} \\
+	\vspace{0.5cm} 
+	{\Huge \textbf{Sprawozdanie z mierzenia opóźnienia i przepustowości w klastrze}} \\
+	\vspace{6cm}	
+	{\Large autor: Ilona Tomkowicz\\}
+	\vspace{0.5cm} 
+	{\Large Akademia Górniczo-Hutnicza\\
+	Wydział Informatyki, Elektroniki i Telekomunikacji,\\
+	Informatyka, II stopień, I semestr \par}
+	   \vspace{0.5cm} 
+	% Set the date
+	{\Large 08 marca 2020 \par}
+	
+	\pagebreak
+
+\end{titlepage}
+
+% Adds a table of contents
+\tableofcontents{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%% Text body starts here!
+\mainmatter
+%1. kodów programów
+%2. danych pomiarowych
+%3. pomiarów opóźnienia i wykresów przepustowości dla różnych parametrów / konfiguracji - może być w osobnych plikach lub złożone w formie dokumentu, np. PDF. Wykresy mają mieć opisane osie oraz informacje o konfiguracji w jakiej test został uruchomiony (jakie maszynki, jakie parametry etc).
+%4. wniosków do wykresów
+
+\chapter{Kody źródłowe}\label{chapt:kod}
+\section{Komunikacja z użyciem Send i Recv}
+\lstinputlisting[language=C]{codes/hw.c}
+
+\section{Komunikacja z użyciem Isend i Irecv}
+\lstinputlisting[language=C]{codes/hw_b.c}
+
+\section{Komunikacja z użyciem jednego węzła i pamięci współdzielonej}
+Konfiguracja pliku allnodes zawierała tylko adres tego węzła, a program uruchamiano na tym samym węźle.
+\lstinputlisting[language=C]{codes/hosts}
+
+\section{Komunikacja z użyciem jednego węzła i połączenia sieciowego}
+Konfiguracja pliku allnodes zawierała tylko adres tego węzła, a program uruchamiano na innym węźle, w tym wypadku na 02.
+
+\section{Komunikacja z użyciem dwóch węzłów, będących fizycznie na tej samej maszynie i połączenia sieciowego}
+Konfiguracja pliku allnodes zawierała adresy używanych węzłów (01, 03), a program uruchamiano na węźle 02.
+\lstinputlisting[language=C]{codes/hosts_2}
+
+\section{Komunikacja z użyciem dwóch węzłów, będących fizycznie na różnych maszynach i połączenia sieciowego}
+Konfiguracja pliku allnodes zawierała adresy używanych węzłów (05, 06), a program uruchamiano na węźle 02.
+\lstinputlisting[language=C]{codes/hosts_3}
+
+\chapter{Dane pomiarowe}
+
+\chapter{Wykresy dla różnych konfiguracji}
+
+\chapter{Wnioski}\
+
+\end{document}
