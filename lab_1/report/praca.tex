@@ -124,8 +124,173 @@ Konfiguracja pliku allnodes zawierała adresy używanych węzłów (05, 06), a p
 
 \chapter{Dane pomiarowe}
 
+Pomiary wykonano dla paczek od 64 B do 
+
+\begin{table}[H]
+\caption{Jeden węzeł, pamięć współdzielona}
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+rozmiar {[}bit{]} & Send/recv przepustowość {[}Mbit/s{]} \\ \hline
+64              & 347.872                              \\ \hline
+256             & 1328.89                              \\ \hline
+1024            & 4148.32                              \\ \hline
+4096            & 12235.5                              \\ \hline
+16384           & 38741.4                              \\ \hline
+65536           & 60750.5                              \\ \hline
+262144          & 61720.4                              \\ \hline
+1048576         & 51421.7                              \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\begin{table}[H]
+\caption{Jeden węzeł, pamięć współdzielona}
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+size {[}bit{]} & Isend/Irecv przepustowość {[}Mbit/s{]} \\ \hline
+64           & 75.871                                 \\ \hline
+256          & 322.474                                \\ \hline
+1024         & 1240.93                                \\ \hline
+4096         & 7566.22                                \\ \hline
+16384        & 27147.9                                \\ \hline
+65536        & 81429.6                                \\ \hline
+262144       & 119653                                 \\ \hline
+1048576      & 55264.7                                \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+
+\begin{table}[H]
+\caption{Jeden węzeł, połączenie sieciowe}
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+size {[}bit{]} & Send/recv przepustowość {[}Mbit/s{]} \\ \hline
+64           & 339.148                              \\ \hline
+256          & 1354.45                              \\ \hline
+1024         & 4119.87                              \\ \hline
+4096         & 13120.9                              \\ \hline
+16384        & 36961.9                              \\ \hline
+65536        & 46702.7                              \\ \hline
+262144       & 54996.8                              \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\begin{table}[H]
+\caption{Jeden węzeł, połączenie sieciowe}
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+size {[}bit{]} & Isend/Irecv przepustowość {[}Mbit/s{]} \\ \hline
+64           & 74.3444                                \\ \hline
+256          & 275.714                                \\ \hline
+1024         & 1601.85                                \\ \hline
+4096         & 4002.86                                \\ \hline
+16384        & 25237.1                                \\ \hline
+65536        & 71933.1                                \\ \hline
+262144       & 75605.2                                \\ \hline
+1048576      & 43859.2                                \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\begin{table}[H]
+\caption{Dwa węzły, jeden host}
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+size {[}bit{]} & Send/recv przepustowość {[}Mbit/s{]} \\ \hline
+64           & 319.243                              \\ \hline
+256          & 1156.55                              \\ \hline
+1024         & 4638.69                              \\ \hline
+4096         & 12530.4                              \\ \hline
+16384        & 31242.5                              \\ \hline
+65536        & 59722.3                              \\ \hline
+262144       & 53988.5                              \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+
+\begin{table}[H]
+\caption{Dwa węzły, jeden host}
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+size {[}bit{]} & Isend/Irecv przepustowość {[}Mbit/s{]} \\ \hline
+64           & 74.64                                  \\ \hline
+256          & 337.766                                \\ \hline
+1024         & 1003.36                                \\ \hline
+4096         & 4407.19                                \\ \hline
+16384        & 26874.5                                \\ \hline
+65536        & 60076.7                                \\ \hline
+262144       & 120085                                 \\ \hline
+1048576      & 36403.5                                \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\begin{table}[H]
+\caption{Dwa węzły, różne hosty}
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+size {[}bit{]} & Send/recv przepustowość {[}Mbit/s{]} \\ \hline
+64           & 3.09821                              \\ \hline
+256          & 12.1787                              \\ \hline
+1024         & 49.11                                \\ \hline
+4096         & 76.0858                              \\ \hline
+16384        & 120.212                              \\ \hline
+65536        & 440.153                              \\ \hline
+262144       & 1206.13                              \\ \hline
+524288       & 1917.71                              \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\begin{table}[H]
+\caption{Dwa węzły, różne hosty}
+\begin{center}
+\begin{tabular}{|c|c|}
+\hline
+size {[}bit{]} & Isend/Irecv przepustowość {[}Mbit/s{]} \\ \hline
+64           & 9.89011                                \\ \hline
+256          & 36.2111                                \\ \hline
+1024         & 92.1024                                \\ \hline
+4096         & 360.693                                \\ \hline
+16384        & 895.855                                \\ \hline
+65536        & 2388.71                                \\ \hline
+262144       & 2862.97                                \\ \hline
+1048576      & 3153.6                                 \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
+\begin{table}[H]
+\caption{Porównanie opóźnienia dla małej paczki 64 bitów}
+\begin{center}
+\begin{tabular}{|c|c|l|}
+\hline
+       & Send+Recv       & Isend+Irecv     \\ \hline
+zad\_1 & 1.94335e-07 sec & 7.73275e-07 sec \\ \hline
+zad\_2 & 2.21586e-07 sec & 8.59272e-07 sec \\ \hline
+zad\_3 & 1.99199e-07 sec & 8.57234e-07 sec \\ \hline
+zad\_4 & 2.06115e-05 sec & 6.07103e-06 sec \\ \hline
+\end{tabular}
+\end{center}
+\end{table}
+
 \chapter{Wykresy dla różnych konfiguracji}
 
-\chapter{Wnioski}\
+\centering \includegraphics[scale=0.65]{pics/z1.png}    
+\centering \includegraphics[scale=0.63]{pics/z2.png}    
+\centering \includegraphics[scale=0.63]{pics/z3.png}    
+\centering \includegraphics[scale=0.6]{pics/z4.png}    
+
+\chapter{Wnioski}
 
 \end{document}

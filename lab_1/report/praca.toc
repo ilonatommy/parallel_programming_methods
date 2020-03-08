@@ -9,5 +9,5 @@
 \contentsline {section}{\numberline {1.5}Komunikacja z u\IeC {\.z}yciem dw\IeC {\'o}ch w\IeC {\k e}z\IeC {\l }\IeC {\'o}w, b\IeC {\k e}d\IeC {\k a}cych fizycznie na tej samej maszynie i po\IeC {\l }\IeC {\k a}czenia sieciowego}{4}{section.1.5}
 \contentsline {section}{\numberline {1.6}Komunikacja z u\IeC {\.z}yciem dw\IeC {\'o}ch w\IeC {\k e}z\IeC {\l }\IeC {\'o}w, b\IeC {\k e}d\IeC {\k a}cych fizycznie na r\IeC {\'o}\IeC {\.z}nych maszynach i po\IeC {\l }\IeC {\k a}czenia sieciowego}{4}{section.1.6}
 \contentsline {chapter}{\numberline {2}Dane pomiarowe}{5}{chapter.2}
-\contentsline {chapter}{\numberline {3}Wykresy dla r\IeC {\'o}\IeC {\.z}nych konfiguracji}{6}{chapter.3}
-\contentsline {chapter}{\numberline {4}Wnioski}{7}{chapter.4}
+\contentsline {chapter}{\numberline {3}Wykresy dla r\IeC {\'o}\IeC {\.z}nych konfiguracji}{9}{chapter.3}
+\contentsline {chapter}{\numberline {4}Wnioski}{12}{chapter.4}
