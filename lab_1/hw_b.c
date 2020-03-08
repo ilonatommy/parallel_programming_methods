@@ -20,7 +20,7 @@ int main(int argc, char** argv) {
     MPI_Init(&argc, &argv);
     get_device_info(&rank, &size);    
     
-    int len = 2<<14;
+    int len = 2<<4;
     // measure delay
     if (rank == 0) /* Note:  it is not always valid that process one can output */
     {   
@@ -35,7 +35,7 @@ int main(int argc, char** argv) {
                if (k[0] != i) printf("invalid pong received\n");
            }   
   	 elapsed_time = MPI_Wtime() - start_time;
-         printf("for an average message of length %d time of %g sec\n", len,  elapsed_time/(2*n)); 		 
+         printf("for an average messageof size %lu bandwidth of %g Mbit/s\n",8* sizeof(k),8* sizeof(k)/ (1000000 * elapsed_time/(2*n))); 		 
          fflush(stdout);
        
     }
@@ -52,7 +52,7 @@ int main(int argc, char** argv) {
        	      if (k[0] != i) printf("invalid pong received\n");
            }
            elapsed_time = MPI_Wtime() - start_time;
-           printf("for an average messageof size %lu bandwidth of %g Mbit/s\n",8* sizeof(k),8* sizeof(k)/ (1000000 * elapsed_time/(2*n)));
+           printf("for an average message of length %d time of %g sec\n", len,  elapsed_time/(2*n));
            fflush(stdout);
        }
      MPI_Wait(&req1, &status);
