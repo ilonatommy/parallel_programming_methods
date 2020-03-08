@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.9.5)  8 MAR 2020 15:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.9.5)  8 MAR 2020 15:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -313,23 +313,44 @@ File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 File: listings.cfg 2015/06/04 1.6 listings configuration
 ))
 Package: listings 2015/06/04 1.6 (Carsten Heinz)
- (./praca.aux)
+
+(/usr/share/texlive/texmf-dist/tex/latex/ms/ragged2e.sty
+Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
+
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everysel.sty
+Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+)
+\CenteringLeftskip=\skip55
+\RaggedLeftLeftskip=\skip56
+\RaggedRightLeftskip=\skip57
+\CenteringRightskip=\skip58
+\RaggedLeftRightskip=\skip59
+\RaggedRightRightskip=\skip60
+\CenteringParfillskip=\skip61
+\RaggedLeftParfillskip=\skip62
+\RaggedRightParfillskip=\skip63
+\JustifyingParfillskip=\skip64
+\CenteringParindent=\skip65
+\RaggedLeftParindent=\skip66
+\RaggedRightParindent=\skip67
+\JustifyingParindent=\skip68
+) (./praca.aux)
 \openout1 = `praca.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 60.
-LaTeX Font Info:    ... okay on input line 60.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 63.
+LaTeX Font Info:    ... okay on input line 63.
 
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
@@ -395,14 +416,14 @@ e
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Info: Redefining \it@ocap on input line 60.
-LaTeX Info: Redefining \it@ccap on input line 60.
+LaTeX Info: Redefining \it@ocap on input line 63.
+LaTeX Info: Redefining \it@ccap on input line 63.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: hyperref package is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
 \AtBeginShipoutBox=\box32
-Package hyperref Info: Link coloring OFF on input line 60.
+Package hyperref Info: Link coloring OFF on input line 63.
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
 
@@ -411,19 +432,21 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count125
 )
-LaTeX Info: Redefining \ref on input line 60.
-LaTeX Info: Redefining \pageref on input line 60.
-LaTeX Info: Redefining \nameref on input line 60.
+LaTeX Info: Redefining \ref on input line 63.
+LaTeX Info: Redefining \pageref on input line 63.
+LaTeX Info: Redefining \nameref on input line 63.
 
 (./praca.out) (./praca.out)
 \@outlinefile=\write3
 \openout3 = `praca.out'.
 
 \c@lstlisting=\count126
+ ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 63.
 <agh.jpg, id=44, 146.4672pt x 284.7438pt>
 File: agh.jpg Graphic file (type jpg)
 <use agh.jpg>
-Package pdftex.def Info: agh.jpg  used on input line 70.
+Package pdftex.def Info: agh.jpg  used on input line 73.
 (pdftex.def)             Requested size: 73.23341pt x 142.37155pt.
  [1
 
@@ -450,7 +473,7 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
 )
 Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
-nput line 105.
+nput line 108.
  (./codes/hw.c
 LaTeX Font Info:    Try loading font information for OMS+cmr on input line 4.
 
@@ -485,22 +508,22 @@ Chapter 3.
 <pics/z1.png, id=250, 694.84593pt x 418.56375pt>
 File: pics/z1.png Graphic file (type png)
 <use pics/z1.png>
-Package pdftex.def Info: pics/z1.png  used on input line 289.
+Package pdftex.def Info: pics/z1.png  used on input line 292.
 (pdftex.def)             Requested size: 451.6445pt x 272.0632pt.
 <pics/z2.png, id=251, 723.45282pt x 438.13687pt>
 File: pics/z2.png Graphic file (type png)
 <use pics/z2.png>
-Package pdftex.def Info: pics/z2.png  used on input line 290.
+Package pdftex.def Info: pics/z2.png  used on input line 293.
 (pdftex.def)             Requested size: 455.7777pt x 276.02768pt.
 <pics/z3.png, id=252, 727.96968pt x 447.17062pt>
 File: pics/z3.png Graphic file (type png)
 <use pics/z3.png>
-Package pdftex.def Info: pics/z3.png  used on input line 291.
+Package pdftex.def Info: pics/z3.png  used on input line 294.
 (pdftex.def)             Requested size: 458.62334pt x 281.71898pt.
 <pics/z4.png, id=253, 740.0147pt x 455.45157pt>
 File: pics/z4.png Graphic file (type png)
 <use pics/z4.png>
-Package pdftex.def Info: pics/z4.png  used on input line 292.
+Package pdftex.def Info: pics/z4.png  used on input line 295.
 (pdftex.def)             Requested size: 444.01225pt x 273.27304pt.
 [9
 
@@ -512,26 +535,26 @@ Overfull \vbox (71.72096pt too high) has occurred while \output is active []
 PNG copy)> <./pics/z4.png (PNG copy)>]
 Chapter 4.
 
-Underfull \hbox (badness 10000) in paragraph at lines 294--294
+Underfull \hbox (badness 10000) in paragraph at lines 297--297
 |[]\T1/cmr/bx/n/17.28 Wnioski|
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 296.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 308.
 [12
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 296.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 308.
  (./praca.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 296.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 296.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 308.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 308.
 Package rerunfilecheck Info: File `praca.out' has not changed.
 (rerunfilecheck)             Checksum: A44320ABACA190819BB8810CE15C5A76;920.
  ) 
 Here is how much of TeX's memory you used:
- 10267 strings out of 492641
- 148068 string characters out of 6131788
- 390220 words of memory out of 5000000
- 13859 multiletter control sequences out of 15000+600000
+ 10341 strings out of 492641
+ 149638 string characters out of 6131788
+ 389731 words of memory out of 5000000
+ 13926 multiletter control sequences out of 15000+600000
  12049 words of font info for 25 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  36i,12n,52p,770b,1874s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -543,7 +566,7 @@ r/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr
 ype1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super
 /sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/
 share/texmf/fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on praca.pdf (14 pages, 509950 bytes).
+Output written on praca.pdf (14 pages, 512037 bytes).
 PDF statistics:
  339 PDF objects out of 1000 (max. 8388607)
  305 compressed objects within 4 object streams

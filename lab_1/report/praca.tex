@@ -54,7 +54,10 @@
 
 % Separates the first part of the report/thesis in Roman numerals
 \frontmatter
+%--------------dla kodu i justyfikacji
 \usepackage{listings}
+\usepackage{ragged2e}
+%-------------------------------
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Starts the document
 \begin{document}
@@ -124,7 +127,7 @@ Konfiguracja pliku allnodes zawierała adresy używanych węzłów (05, 06), a p
 
 \chapter{Dane pomiarowe}
 
-Pomiary wykonano dla paczek od 64 B do 
+Pomiary wykonano dla paczek od 64 B do wielkości maksymalnej, która nie blokowała wykonania programu. Zrobiono 10000 iteracji w połączeniu ping-pong w celu zmierzenia poniższych parametrów. Dokładne dane jakich maszyn użyto w kolejnych konfiguracjach znajdują się w poprzednim rozdziale.
 
 \begin{table}[H]
 \caption{Jeden węzeł, pamięć współdzielona}
@@ -292,5 +295,14 @@ zad\_4 & 2.06115e-05 sec & 6.07103e-06 sec \\ \hline
 \centering \includegraphics[scale=0.6]{pics/z4.png}    
 
 \chapter{Wnioski}
+\justifying
+Zgodnie z oczekiwaniami największą przepustowość ma połączenie lokalne bez użycia sieci. Biorąc pod uwagę najlepszy przypadek (połączenie asynchroniczne przesyłające 32768 B - pik czerwonej linii), przepustowość dochodzi aż do 125000Mbit/s. Mimo, że połączenie przez sieć przez dwa węzły (01,03) daje podobne rezultaty w maksimum, to krzywa wykresu jest bardziej stroma. 
+
+Nie każdy test udało się nasycić dojściem do maksymalnej przepustowości. W większości dla komunikacji asynchronicznej można zaobserwować maksymalny pik, a potem spadek przepustowości. Dla komunikacji synchronicznej także istnieje niższa granica maksymalnych paczek, bo 32768 B to zwykle największa ilość jaką udało się przesłać. Dla komunikacji asynchronicznej ta wielkość dochodzi do 131072 B.
+
+W każdej konfiguracji komunikacja asynchroniczna ma większą przepustowość, jednak opóźnienie związane z tą komunikacją jest większe. Jest to różnica mniejsza niż jeden rząd wielkości, więc dla używanych danych nie ma dużego znaczenia.
+
+Opóźnienie pomiędzy konfiguracjami dla tych samych operacji jest porównywalne dla wszystkich przypadków poza ostatnim. W konfiguracji, gdzie łączymy dwa różne hosty opóźnienie rośnie nawet o 2 rzędy wielkości, co jest odczuwalną różnicą. Wniosek z tego jest taki, że dopóki węzły są fizycznie na tym samym hoście to nie będzie miało drastycznego znaczenia czy użyjemy do obliczeń połączenia sieciowego, pamięci współdzielonej, komunikacji synchronicznej czy asynchronicznej. Dopiero przy komunikacji dwóch różnych fizycznie hostów takie szczegóły konfiguracyjne dadzą się odczuć.
+
 
 \end{document}
