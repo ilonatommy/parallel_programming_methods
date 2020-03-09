@@ -2,6 +2,7 @@
 #include "mpi.h"
 #include <stdlib.h>
 #include <assert.h>
+#include <string.h>
 
 void get_device_info(int* rank, int*size)
 {
@@ -36,10 +37,12 @@ int main(int argc, char** argv) {
     start_t = MPI_Wtime();
 
     //send the table of ELEM_PER_PROCESS elements to each of the processes
-    MPI_Scatter(collective_array, ELEM_PER_PROCESS, MPI_INT, sub_array, ELEM_PER_PROCESS, MPI_INT, 0, MPI_COMM_WORLD);
-    
+    //MPI_Scatter(collective_array, ELEM_PER_PROCESS, MPI_INT, sub_array, ELEM_PER_PROCESS, MPI_INT, 0, MPI_COMM_WORLD);
+    //my custom scatter:
+    memcpy(sub_array, &collective_array[rank * ELEM_PER_PROCESS], ELEM_PER_PROCESS * sizeof(int));    
+
     //do the computations for each rank in parallel
-    //for(i=0; i<ELEM_PER_PROCESS; i++) sub_array[i] *= rank;
+    for(i=0; i<ELEM_PER_PROCESS; i++) sub_array[i] *= rank;
     
     MPI_Gather(sub_array, ELEM_PER_PROCESS, MPI_INT, collective_array, ELEM_PER_PROCESS, MPI_INT, 0, MPI_COMM_WORLD);
     elapsed_t = MPI_Wtime() - start_t;
@@ -53,7 +56,8 @@ int main(int argc, char** argv) {
     
     if(rank == 0)
     {
-        printf("---------------------------\n%g globally.\n---------------------------\n", glob_elapsed);
+	for(i=0; i<len; i++) printf("%d, ", collective_array[i]);
+        //printf("\n---------------------------\n%g globally.\n---------------------------\n", glob_elapsed);
         free(collective_array);
     }  
    
