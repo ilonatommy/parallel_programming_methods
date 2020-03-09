@@ -4,6 +4,36 @@
 #include <assert.h>
 #include <string.h>
 
+//https://stackoverflow.com/questions/52797233/problems-implementing-mpi-scatter-with-mpi-send-and-mpi-recv?rq=1
+
+void Scatter(void* send_data, int send_count, MPI_Datatype send_datatype, 
+                  void* recv_data, int recv_count, MPI_Datatype recv_datatype, 
+                  int root, MPI_Comm communicator) {
+
+    int np, rank;
+    int i;
+    int size;
+
+    MPI_Datatype type;
+    type = send_datatype;
+    MPI_Type_size(type, &size);
+
+    MPI_Status status;
+    MPI_Comm_size(communicator, &np);
+    MPI_Comm_rank(communicator, &rank);
+
+
+
+    if (rank == 0) {
+        for (i = 0; i < np; i++) {
+            MPI_Send(send_data + ((i * send_count) * size), send_count, send_datatype, i, 0, communicator);
+
+        }
+    }
+    MPI_Recv(recv_data, recv_count, recv_datatype, root, 0, communicator, &status);
+
+}
+
 void get_device_info(int* rank, int*size)
 {
     MPI_Comm_rank (MPI_COMM_WORLD, rank);  /* get current process id */
@@ -38,8 +68,8 @@ int main(int argc, char** argv) {
 
     //send the table of ELEM_PER_PROCESS elements to each of the processes
     //MPI_Scatter(collective_array, ELEM_PER_PROCESS, MPI_INT, sub_array, ELEM_PER_PROCESS, MPI_INT, 0, MPI_COMM_WORLD);
-    //my custom scatter:
-    memcpy(sub_array, &collective_array[rank * ELEM_PER_PROCESS], ELEM_PER_PROCESS * sizeof(int));    
+    //custom scatter:
+    Scatter(collective_array, ELEM_PER_PROCESS, MPI_INT, sub_array, ELEM_PER_PROCESS, MPI_INT, 0, MPI_COMM_WORLD);    
 
     //do the computations for each rank in parallel
     for(i=0; i<ELEM_PER_PROCESS; i++) sub_array[i] *= rank;
