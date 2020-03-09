@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.9.5)  8 MAR 2020 15:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2019/dev/Debian) (preloaded format=pdflatex 2019.9.5)  9 MAR 2020 09:36
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -494,9 +494,8 @@ Overfull \hbox (95.56877pt too wide) in paragraph at lines 35--36
 
 
 ]) (./codes/hw_b.c [2]
-Overfull \hbox (29.58438pt too wide) in paragraph at lines 36--37
-[][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][][
-][][] 
+Overfull \hbox (47.58012pt too wide) in paragraph at lines 38--39
+[][][][][][][][][][][][][][][][][][][][][][][][][][][] 
  []
 
 ) (./codes/hosts) [3] (./codes/hosts_2) (./codes/hosts_3) [4]
@@ -505,22 +504,22 @@ Chapter 2.
 
 ] [6] [7] [8]
 Chapter 3.
-<pics/z1.png, id=250, 694.84593pt x 418.56375pt>
+<pics/z1.png, id=251, 694.84593pt x 418.56375pt>
 File: pics/z1.png Graphic file (type png)
 <use pics/z1.png>
 Package pdftex.def Info: pics/z1.png  used on input line 292.
 (pdftex.def)             Requested size: 451.6445pt x 272.0632pt.
-<pics/z2.png, id=251, 723.45282pt x 438.13687pt>
+<pics/z2.png, id=252, 723.45282pt x 438.13687pt>
 File: pics/z2.png Graphic file (type png)
 <use pics/z2.png>
 Package pdftex.def Info: pics/z2.png  used on input line 293.
 (pdftex.def)             Requested size: 455.7777pt x 276.02768pt.
-<pics/z3.png, id=252, 727.96968pt x 447.17062pt>
+<pics/z3.png, id=253, 727.96968pt x 447.17062pt>
 File: pics/z3.png Graphic file (type png)
 <use pics/z3.png>
 Package pdftex.def Info: pics/z3.png  used on input line 294.
 (pdftex.def)             Requested size: 458.62334pt x 281.71898pt.
-<pics/z4.png, id=253, 740.0147pt x 455.45157pt>
+<pics/z4.png, id=254, 740.0147pt x 455.45157pt>
 File: pics/z4.png Graphic file (type png)
 <use pics/z4.png>
 Package pdftex.def Info: pics/z4.png  used on input line 295.
@@ -551,8 +550,8 @@ Package rerunfilecheck Info: File `praca.out' has not changed.
 (rerunfilecheck)             Checksum: A44320ABACA190819BB8810CE15C5A76;920.
  ) 
 Here is how much of TeX's memory you used:
- 10341 strings out of 492641
- 149638 string characters out of 6131788
+ 10342 strings out of 492641
+ 149653 string characters out of 6131788
  389731 words of memory out of 5000000
  13926 multiletter control sequences out of 15000+600000
  12049 words of font info for 25 fonts, out of 8000000 for 9000
@@ -566,10 +565,10 @@ r/sfbx1440.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfbx1728.pfb></usr
 ype1/public/cm-super/sfbx2488.pfb></usr/share/texmf/fonts/type1/public/cm-super
 /sfrm1000.pfb></usr/share/texmf/fonts/type1/public/cm-super/sfrm1440.pfb></usr/
 share/texmf/fonts/type1/public/cm-super/sfti1000.pfb>
-Output written on praca.pdf (14 pages, 512037 bytes).
+Output written on praca.pdf (14 pages, 512165 bytes).
 PDF statistics:
- 339 PDF objects out of 1000 (max. 8388607)
- 305 compressed objects within 4 object streams
- 165 named destinations out of 1000 (max. 500000)
+ 340 PDF objects out of 1000 (max. 8388607)
+ 306 compressed objects within 4 object streams
+ 166 named destinations out of 1000 (max. 500000)
  106 words of extra memory for PDF output out of 10000 (max. 10000000)
 

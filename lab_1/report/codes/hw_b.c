@@ -20,7 +20,7 @@ int main(int argc, char** argv) {
     
     int len = 2<<4;
     
-    if (rank == 0)
+   if (rank == 0) 
     {   
            int k[len];
            start_time = MPI_Wtime();
@@ -30,14 +30,16 @@ int main(int argc, char** argv) {
                MPI_Isend(k, len, MPI_INT, 1, 123, MPI_COMM_WORLD,&req1);
                MPI_Irecv(k, len, MPI_INT, 1, 123, MPI_COMM_WORLD, &req2);
                MPI_Wait(&req1, &status);
-               if (k[0] != i) printf("error\n");
+               MPI_Wait(&req2, &status);
+               if (k[0] != i) printf("invalid pong received\n");
            }   
          elapsed_time = MPI_Wtime() - start_time;
-         printf("av message of length %d has time of %g sec\n", len,  elapsed/(2*n));
+         printf("for an average messageof size %lu bandwidth of %g Mbit/s\n",
+                8* sizeof(k),8* sizeof(k)/ (1000000 * elapsed_time/(2*n))); 		 
          fflush(stdout);
        
     }
-    
+
     if (rank == 1)
     { 
            int k[len];
@@ -46,16 +48,16 @@ int main(int argc, char** argv) {
     	   {  k[0] = i;
               MPI_Isend(k, len, MPI_INT, 0, 123, MPI_COMM_WORLD, &req1);
               MPI_Irecv(k, len, MPI_INT, 0, 123, MPI_COMM_WORLD, &req2);
+              MPI_Wait(&req1, &status);
               MPI_Wait(&req2, &status);
-       	      if (k[0] != i) printf("error\n");
+       	      if (k[0] != i) printf("invalid pong received\n");
            }
            elapsed_time = MPI_Wtime() - start_time;
-           printf("av message of size %lu has %g Mbit/s\n", 
-                  8*s, 8*s/ (1000000 * elapsed/(2*n)));
+           printf("for an average message of length %d time of %g sec\n", 
+                  len,  elapsed_time/(2*n));
            fflush(stdout);
-       }
-     MPI_Wait(&req1, &status);
-     MPI_Wait(&req2, &status);
+     }
      MPI_Finalize();
      return 0;
 } 
+
