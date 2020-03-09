@@ -1,5 +1,7 @@
 #include <stdio.h>
 #include "mpi.h"
+#include <stdlib.h>
+#include <assert.h>
 
 void get_device_info(int* rank, int*size)
 {
@@ -9,21 +11,17 @@ void get_device_info(int* rank, int*size)
 }
 
 int main(int argc, char** argv) {
-    int rank, processes_num, i;
-    const int   ELEM_PER_PROCESS = 3;
-    int         len = size*ELEM_PER_PROCESS;
-    int         tag = 123;
-    MPI_Status  status; 
-    double      start_time, elapsed_time;
+    int rank, size, i;
+    const int   ELEM_PER_PROCESS = 3; 
    
     MPI_Init(&argc, &argv);
     get_device_info(&rank, &size);    
-    
-    int len = 2<<13;
-    // measure delay
-    if (rank == 0) /* Note:  it is not always valid that process one can output */
+    int len 	= size * ELEM_PER_PROCESS;
+
+    int *collective_array = NULL;
+    if (rank == 0)
     {   
-        int collective_array[len];           
+        collective_array = (int*)malloc(sizeof(int) * len);           
         for(i=0; i<len; i++) collective_array[i] = 1;
     }
     
@@ -41,11 +39,11 @@ int main(int argc, char** argv) {
     
     if(rank == 0)
     {
-        printf"[");
+        printf("[");
         for(i=0; i<len; i++) printf("%d, ", collective_array[i]);
-        printf"]");
+        printf("]");
         
-        free(sub_array);
+        //free(sub_array);
         free(collective_array);
     }  
    
