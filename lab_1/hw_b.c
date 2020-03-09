@@ -32,6 +32,7 @@ int main(int argc, char** argv) {
                MPI_Isend(k, len, MPI_INT, 1, tag, MPI_COMM_WORLD,&req1);
                MPI_Irecv(k, len, MPI_INT, 1, tag, MPI_COMM_WORLD, &req2);
                MPI_Wait(&req1, &status);
+               MPI_Wait(&req2, &status);
                if (k[0] != i) printf("invalid pong received\n");
            }   
   	 elapsed_time = MPI_Wtime() - start_time;
@@ -48,15 +49,14 @@ int main(int argc, char** argv) {
     	   {  k[0] = i;
               MPI_Isend(k, len, MPI_INT, 0, tag, MPI_COMM_WORLD, &req1);
               MPI_Irecv(k, len, MPI_INT, 0, tag, MPI_COMM_WORLD, &req2);
+              MPI_Wait(&req1, &status);
               MPI_Wait(&req2, &status);
        	      if (k[0] != i) printf("invalid pong received\n");
            }
            elapsed_time = MPI_Wtime() - start_time;
            printf("for an average message of length %d time of %g sec\n", len,  elapsed_time/(2*n));
            fflush(stdout);
-       }
-     MPI_Wait(&req1, &status);
-     MPI_Wait(&req2, &status);
+     }
      MPI_Finalize();
      return 0;
 } 
