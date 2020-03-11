@@ -17,7 +17,7 @@ void Scatter(int* send_data, int* recv_data, int count) {
     MPI_Datatype type = MPI_INT;
     MPI_Type_size(type, &type_size);
 
-    MPI_Status status;
+    //MPI_Status status;
     get_device_info(&rank, &size);
 
     if (rank == 0){
@@ -29,7 +29,7 @@ void Scatter(int* send_data, int* recv_data, int count) {
 
 int main(int argc, char** argv) {
     int rank, size, i;
-    const int   ELEM_PER_PROCESS = 1250000; 
+    const int   ELEM_PER_PROCESS = 125; 
     double start_t, elapsed_t;
     double glob_elapsed;
      

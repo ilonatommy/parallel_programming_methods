@@ -19,7 +19,7 @@ int main(int argc, char** argv) {
     MPI_Init(&argc, &argv);
     get_device_info(&rank, &size);    
     
-    int len = 2<<13;
+    int len = 2<<14;
     // measure delay
     if (rank == 0) /* Note:  it is not always valid that process one can output */
     {   
