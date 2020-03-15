@@ -11,8 +11,7 @@ int main() {
  int i, count, n;
  double x,y,z,pi;
 
- printf("n = ");
- scanf("%d", &n);
+ n = 1000000000;
 
  count = 0;
 
@@ -29,7 +28,7 @@ int main() {
 
  pi = (double) count / n * 4;
  
- printf("Approximate PI = %g", pi);
+ printf("Approximate PI = %g\n", pi);
 
  return(0);
 }
