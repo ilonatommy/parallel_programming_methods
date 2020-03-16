@@ -16,23 +16,23 @@ int main(int argc, char* argv[]) {
  MPI_Comm_rank(MPI_COMM_WORLD, &rank);
  MPI_Comm_size(MPI_COMM_WORLD, &size);
  
- MPI_Barrier(MPI_COMM_WORLD);
- start_t = MPI_Wtime();
-
  srand( SEED );
- int i, count, n;
+ long int i, count, n;
  double x,y,z,pi;
  
- n = 100; //liczba losowań w każdym procesie
+ n = 100000000/size; //liczba losowań w każdym procesie
  
  //petla usredniajaca: 100-krotna
  int iterations, j;
  double* all_pi;
  double sd, summed_pi;
- iterations = 100;
+ iterations = 10;
  summed_pi = 0;
  sd = 0;
  all_pi = (double*)malloc(iterations*sizeof(double));
+ 
+ MPI_Barrier(MPI_COMM_WORLD);
+ start_t = MPI_Wtime();
  
  for(j=0; j<iterations; j++){
  count = 0; //liczba punktów znalezionych w kole
@@ -55,7 +55,7 @@ int main(int argc, char* argv[]) {
  
  //zsumuj wszystkie średnie pi z procesów i zapisz do recvbuf
  MPI_Reduce(&sendbuf_1, &recvbuf_1, 1, MPI_DOUBLE, MPI_SUM, 0, MPI_COMM_WORLD);
- 
+
  //odchylenie:
  for(j=0; j<iterations; j++)
   sd += pow(all_pi[j] - pi, 2); 
@@ -73,9 +73,7 @@ int main(int argc, char* argv[]) {
  {
     pi = recvbuf_1 / size;
     sd = recvbuf_2 / size;
-    printf("Approximate PI = %g.\n.", pi);
-    printf("Execution time: %g\n.", end_t);
-    printf("SD = %g\n.", sd);
+    printf("Executed on %d processes.\nApproximate PI = %g.\nExecution time: %g.\nSD = %g.\n", size, pi, end_t, sd);
  }
  
  MPI_Finalize();
