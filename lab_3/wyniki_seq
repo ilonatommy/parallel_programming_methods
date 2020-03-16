@@ -1,0 +1,17 @@
+Uśredniono przez 100-krotne wywołanie algorytmu.
+
+You passed: 100 as a number of points.
+PI = 3.1272
+SD = 0.168701
+
+You passed: 10000 as a number of points.
+PI = 3.1434
+SD = 0.0156874
+
+You passed: 1000000 as a number of points.
+PI = 3.14177
+SD = 0.00184263
+
+You passed: 100000000 as a number of points.
+PI = 3.1416
+SD = 0.000155745
