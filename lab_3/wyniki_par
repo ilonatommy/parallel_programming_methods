@@ -1,0 +1,111 @@
+ 
+Dla 100 pkt (to tak mało, że nie widać przyśpieszenia):
+
+Executed on 1 processes.
+Approximate PI = 3.124.
+Execution time: 4.81606e-05.
+SD = 0.143611.
+
+Executed on 2 processes.
+Approximate PI = 3.256.
+Execution time: 5.53131e-05.
+SD = 0.258116.
+
+Executed on 4 processes.
+Approximate PI = 3.152.
+Execution time: 5.74589e-05.
+SD = 0.27759.
+
+Executed on 10 processes.
+Approximate PI = 3.
+Execution time: 0.00022769.
+SD = 0.626099.
+
+Executed on 12 processes.
+Approximate PI = 3.15.
+Execution time: 0.00020957.
+SD = 0.838153.
+--------------------------------
+dla 10000 pkt (tu już widać):
+
+Executed on 1 processes.
+Approximate PI = 3.1428.
+Execution time: 0.0022552.
+SD = 0.0116303.
+
+Executed on 2 processes.
+Approximate PI = 3.13472.
+Execution time: 0.00116801.
+SD = 0.0198465.
+
+Executed on 4 processes.
+Approximate PI = 3.13808.
+Execution time: 0.00060606.
+SD = 0.0194128.
+
+Executed on 10 processes.
+Approximate PI = 3.1588.
+Execution time: 0.000413418.
+SD = 0.0486637.
+
+Executed on 12 processes.
+Approximate PI = 3.17311.
+Execution time: 0.000375986.
+SD = 0.0681737.
+
+-------------------------------
+dla 1000000 pkt:
+
+Executed on 1 processes.
+Approximate PI = 3.14156.
+Execution time: 0.223015.
+SD = 0.00196634.
+
+xecuted on 2 processes.
+Approximate PI = 3.14159.
+Execution time: 0.112321.
+SD = 0.00196598.
+
+Executed on 4 processes.
+Approximate PI = 3.14307.
+Execution time: 0.0559046.
+SD = 0.00234885.
+
+Executed on 10 processes.
+Approximate PI = 3.14152.
+Execution time: 0.0227575.
+SD = 0.00459079.
+
+Executed on 12 processes.
+Approximate PI = 3.14203.
+Execution time: 0.018857.
+SD = 0.0032752.
+
+------------------------------
+dla 100000000 pkt:
+
+Executed on 1 processes.
+Approximate PI = 3.14155.
+Execution time: 22.3117.
+SD = 9.40295e-05.
+
+Executed on 2 processes.
+Approximate PI = 3.14162.
+Execution time: 11.1562.
+SD = 0.000162019.
+
+Executed on 4 processes.
+Approximate PI = 3.1416.
+Execution time: 5.62487.
+SD = 0.000390397.
+
+Executed on 10 processes.
+Approximate PI = 3.14163.
+Execution time: 2.23701.
+SD = 0.000242035.
+
+Executed on 12 processes.
+Approximate PI = 3.14156.
+Execution time: 1.85917.
+SD = 0.000602834.
+
