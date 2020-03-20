@@ -17,10 +17,12 @@ int main(int argc, char* argv[]) {
  MPI_Comm_size(MPI_COMM_WORLD, &size);
  
  srand( SEED );
- long int i, count, n;
+ long long int i, count, n;
  double x,y,z,pi;
+ char* eptr;
  
- n = 100000000/size; //liczba losowań w każdym procesie
+ if(rank==0) printf("You passed: %s as a number of points.\n", argv[1]);
+ n = strtol(argv[1], &eptr, 10) / size; //liczba losowań w każdym procesie
  
  //petla usredniajaca: 100-krotna
  int iterations, j;
@@ -64,7 +66,7 @@ int main(int argc, char* argv[]) {
  //zsumuj wszystkie odchylenia, bo będziemy je uśredniać w procesie głównym
  MPI_Reduce(&sendbuf_2, &recvbuf_2, 1, MPI_DOUBLE, MPI_SUM, 0, MPI_COMM_WORLD);
  
- MPI_Barrier(MPI_COMM_WORLD);
+ //tu nie trzeba dodawać bariery, bo MPI_Reduce() działa też jak bariera 
  end_t = MPI_Wtime() - start_t;
 
  //tylko proces główny oblicza ostateczny wynik 
