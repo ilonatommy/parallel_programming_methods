@@ -1,0 +1,378 @@
+ plgrid/tools/openmpi/1.10.2-gnu-4.9.2-ib unloaded.
+ plgrid/tools/openmpi/1.10.2-gnu-4.9.2-ib loaded.
+[n1087-amd][[34650,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n1087-amd
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+Executed on 1 processes.
+Approximate PI = 3.14154.
+Execution time: 10.9238.
+.
+[n1087-amd][[34772,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n1087-amd][[34772,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n1087-amd
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n1087-amd:02951] 1 more process has sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n1087-amd:02951] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+Executed on 2 processes.
+Approximate PI = 3.14164.
+Execution time: 6.48256.
+.
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n1087-amd
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n1087-amd][[34722,1],2][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n1087-amd][[34722,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n1087-amd][[34722,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+Executed on 3 processes.
+Approximate PI = 3.14122.
+Execution time: 3.61826.
+.
+[n1087-amd:03057] 2 more processes have sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n1087-amd:03057] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[n1087-amd][[32825,1],2][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n1087-amd
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n1087-amd][[32825,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n1087-amd][[32825,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n1087-amd][[32825,1],3][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+Executed on 4 processes.
+Approximate PI = 3.1412.
+Execution time: 3.24019.
+.
+[n1087-amd:03178] 3 more processes have sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n1087-amd:03178] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n1087-amd
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n1087-amd][[33007,1],2][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n1087-amd][[33007,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n1087-amd][[33007,1],3][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n1087-amd][[33007,1],4][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n1087-amd][[33007,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+Executed on 5 processes.
+Approximate PI = 3.14148.
+Execution time: 2.56444.
+.
+[n1087-amd:03260] 4 more processes have sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n1087-amd:03260] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n1087-amd
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n1087-amd][[33195,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n1087-amd][[33195,1],4][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n1087-amd][[33195,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n1087-amd][[33195,1],3][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n1087-amd][[33195,1],2][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n1087-amd][[33195,1],5][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+Executed on 6 processes.
+Approximate PI = 3.14111.
+Execution time: 2.16327.
+.
+[n1087-amd:03576] 5 more processes have sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n1087-amd:03576] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n1087-amd
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n1087-amd][[33303,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n1087-amd][[33303,1],4][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n1087-amd][[33303,1],2][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n1087-amd][[33303,1],3][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n1087-amd][[33303,1],5][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n1087-amd][[33303,1],6][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n1087-amd][[33303,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+Executed on 7 processes.
+Approximate PI = 3.14224.
+Execution time: 1.81451.
+.
+[n1087-amd:03652] 6 more processes have sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n1087-amd:03652] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[n1087-amd][[33322,1],6][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n1087-amd][[33322,1],3][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n1087-amd
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n1087-amd][[33322,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n1087-amd][[33322,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n1087-amd][[33322,1],2][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n1087-amd][[33322,1],4][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n1087-amd][[33322,1],5][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n1087-amd][[33322,1],7][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+Executed on 8 processes.
+Approximate PI = 3.14113.
+Execution time: 1.61674.
+.
+[n1087-amd:03705] 7 more processes have sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n1087-amd:03705] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[n1087-amd][[33527,1],3][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n1087-amd][[33527,1],4][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n1087-amd][[33527,1],6][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n1087-amd][[33527,1],8][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n1087-amd
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n1087-amd][[33527,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n1087-amd][[33527,1],7][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n1087-amd][[33527,1],2][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n1087-amd][[33527,1],5][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n1087-amd][[33527,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+Executed on 9 processes.
+Approximate PI = 3.14233.
+Execution time: 1.44037.
+.
+[n1087-amd:03748] 8 more processes have sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n1087-amd:03748] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[n1087-amd][[33607,1],9][btl_openib.c:873:mca_btl_openib_add_procs] [n1087-amd][[33607,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n1087-amd
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n1087-amd][[33607,1],3][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n1087-amd][[33607,1],8][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+could not prepare openib device for use
+[n1087-amd][[33607,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n1087-amd][[33607,1],2][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n1087-amd][[33607,1],4][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n1087-amd][[33607,1],5][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n1087-amd][[33607,1],6][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n1087-amd][[33607,1],7][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+Executed on 10 processes.
+Approximate PI = 3.14156.
+Execution time: 1.30668.
+.
+[n1087-amd:03860] 9 more processes have sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n1087-amd:03860] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[n1087-amd][[33563,1],9][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n1087-amd][[33563,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n1087-amd][[33563,1],3][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n1087-amd][[33563,1],4][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n1087-amd][[33563,1],6][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n1087-amd
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n1087-amd][[33563,1],5][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n1087-amd][[33563,1],7][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n1087-amd][[33563,1],8][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n1087-amd][[33563,1],10][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n1087-amd][[33563,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n1087-amd][[33563,1],2][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+Executed on 11 processes.
+Approximate PI = 3.14092.
+Execution time: 1.18562.
+.
+[n1087-amd:03912] 10 more processes have sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n1087-amd:03912] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n1087-amd
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n1087-amd][[33734,1],3][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n1087-amd][[33734,1],7][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n1087-amd][[33734,1],10][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n1087-amd][[33734,1],11][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n1087-amd][[33734,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n1087-amd][[33734,1],5][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n1087-amd][[33734,1],9][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n1087-amd][[33734,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n1087-amd][[33734,1],2][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n1087-amd][[33734,1],4][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n1087-amd][[33734,1],6][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n1087-amd][[33734,1],8][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+Executed on 12 processes.
+Approximate PI = 3.14105.
+Execution time: 1.10408.
+.
+[n1087-amd:03989] 11 more processes have sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n1087-amd:03989] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
