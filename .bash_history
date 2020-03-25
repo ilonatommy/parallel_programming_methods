@@ -248,3 +248,99 @@ squeue --start
 ls
 vim slurm-611885
 vim slurm-6118853.out 
+squeue --start
+ls
+cd lab_4
+ls
+vim slurm-611885
+vim slurm-6118852.out 
+cp slurm-6118852.out out1.txt
+vim out1.txt 
+vim slurm-6118853.out 
+ls
+squeue --start
+vim slurm-6118853.out 
+cp slurm-6118853.out out2.txt
+vim out2.txt 
+squeue --start
+ssh-keygen -t rsa -b 4096 -C ili.ili@interia.pl
+eval "$(ssh-agent -s)"
+ ssh-add ~/.ssh/id_rsa
+sudo apt-get install xclip
+xclip -sel clip < ~/.ssh/id_rsa.pub
+cd ~/.ssh/id_rsa.pub
+vim  ~/.ssh/id_rsa.pub
+ls
+git status
+git add .
+git commit -m "Changes on Zeus lab_4"
+git push origin master
+git config user.name "ilonatommy"
+git config user.email "ili.ili@intera.pl"
+git config
+git config --get
+git config --get user.name
+git config --get user.email
+git push origin master
+git remote -v
+git push git@github.com:ilonatommy/parallel_programming_methods.git master
+git remote add origin git@github.com:ilonatommy/parallel_programming_methods.git
+squeue --start
+ls
+mv slurm-6118852.out slurm-6118852.out.txt
+mv slurm-6118853.out slurm-6118853.out.txt
+ls
+git add .
+git commit -m "Slurm out files which was omitted in last commit"
+git push origin master
+git push git@github.com:ilonatommy/parallel_programming_methods.git master
+ls
+mv slurm-6118852.out.txt slurm-6118852_out.txt
+mv slurm-6118853.out.txt slurm-6118853_out.txt
+git status
+git add .
+git status
+git commit -m "Added omitted slurm out files"
+git push origin master
+git push git@github.com:ilonatommy/parallel_programming_methods.git master
+ls 
+rm ir slurm-611885
+rm -r slurm-611885
+rm slurm-611885
+rm -rf slurm-611885
+ls
+git add .
+git commit -m "Not needed"
+git add .
+git commit -m "Not needed"
+cd ..
+ls
+git add .
+git commit -m "Not needed"
+git push origin master
+git push git@github.com:ilonatommy/parallel_programming_methods.git master
+ls
+squeue --start
+ls
+cd lab_4
+ls 
+vim out1
+vim out1.txt 
+vim out2.txt 
+squeue --start
+vim pi_final.sh 
+squeue --start
+ls
+cd lab_4
+ls
+vim slurm-6118854.out 
+cp slurm-6118854.out out3.txt
+vim out3.txt 
+vim out1.txt
+vim z_pi_1.sh
+sbash z_pi_1.sh
+sbatch z_pi_1.sh
+squeue --start
+ls
+vim slurm-6118854.out 
+vim slurm-6121771.out 

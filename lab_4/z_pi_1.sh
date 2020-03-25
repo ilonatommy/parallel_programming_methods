@@ -7,5 +7,5 @@
 module add plgrid/tools/openmpi
 mpicc -o pi_par pi_par.c
 for ((i=1; i<=12; i++)); do
-	mpiexec -np $i ./pi_par 100000000
+	mpiexec -np $i ./pi_par 10000000000
 done
