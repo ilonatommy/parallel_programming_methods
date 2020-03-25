@@ -49,7 +49,7 @@ int main(int argc, char* argv[]) {
  if(rank == 0)
  {
     pi = recvbuf / size;
-    printf("Executed on %d processes.\nApproximate PI = %g.\nExecution time: %g.\n.\n", size, pi, end_t);
+    printf("%d, %g, %g\n", size, pi, end_t);
  }
  
  //--------------------------------
