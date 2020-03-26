@@ -1,0 +1,96 @@
+Executed on 1 processes.
+Approximate PI = 3.14147.
+Execution time: 10.311.
+.
+Executed on 1 processes.
+Approximate PI = 3.14176.
+Execution time: 10.3359.
+.
+Executed on 2 processes.
+Approximate PI = 3.14133.
+Execution time: 5.78535.
+.
+Executed on 2 processes.
+Approximate PI = 3.14137.
+Execution time: 12.636.
+.
+Executed on 3 processes.
+Approximate PI = 3.14156.
+Execution time: 3.50956.
+.
+Executed on 3 processes.
+Approximate PI = 3.14159.
+Execution time: 10.5768.
+.
+Executed on 4 processes.
+Approximate PI = 3.14186.
+Execution time: 2.54098.
+.
+Executed on 4 processes.
+Approximate PI = 3.14146.
+Execution time: 10.405.
+.
+Executed on 5 processes.
+Approximate PI = 3.14188.
+Execution time: 2.24438.
+.
+Executed on 5 processes.
+Approximate PI = 3.14192.
+Execution time: 11.2492.
+.
+Executed on 6 processes.
+Approximate PI = 3.14224.
+Execution time: 2.14655.
+.
+Executed on 6 processes.
+Approximate PI = 3.14159.
+Execution time: 11.2653.
+.
+Executed on 7 processes.
+Approximate PI = 3.14187.
+Execution time: 1.7549.
+.
+Executed on 7 processes.
+Approximate PI = 3.14162.
+Execution time: 11.6244.
+.
+Executed on 8 processes.
+Approximate PI = 3.14194.
+Execution time: 1.50378.
+.
+Executed on 8 processes.
+Approximate PI = 3.14138.
+Execution time: 11.5075.
+.
+Executed on 9 processes.
+Approximate PI = 3.14186.
+Execution time: 1.42656.
+.
+Executed on 9 processes.
+Approximate PI = 3.1418.
+Execution time: 12.283.
+.
+Executed on 10 processes.
+Approximate PI = 3.14167.
+Execution time: 1.25276.
+.
+Executed on 10 processes.
+Approximate PI = 3.14166.
+Execution time: 12.3763.
+.
+Executed on 11 processes.
+Approximate PI = 3.14077.
+Execution time: 1.17125.
+.
+Executed on 11 processes.
+Approximate PI = 3.14165.
+Execution time: 12.7177.
+.
+Executed on 12 processes.
+Approximate PI = 3.1424.
+Execution time: 1.06581.
+.
+Executed on 12 processes.
+Approximate PI = 3.14166.
+Execution time: 12.8879.
+.
