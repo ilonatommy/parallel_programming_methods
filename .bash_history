@@ -344,3 +344,26 @@ squeue --start
 ls
 vim slurm-6118854.out 
 vim slurm-6121771.out 
+ls
+git status
+git pull origin master
+git status
+git add .
+git commit -m "Zeus changes:
+:
+"
+git push origin master
+git push git@github.com:ilonatommy/parallel_programming_methods.git master
+git push  https://github.com/ilonatommy/parallel_programming_methods.git master
+git push git@github.com:ilonatommy/parallel_programming_methods.git master
+git status
+cd lab_4
+ls
+vim z_pi_final.sh 
+squeue --start
+sbatch z_pi_final.sh 
+squeue --start
+vim z_pi_final.sh 
+sbatch z_pi_final.sh 
+squeue --start
+exit

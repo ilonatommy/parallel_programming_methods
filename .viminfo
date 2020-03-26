@@ -14,9 +14,9 @@
 $
 
 # Command Line History (newest to oldest):
+:q
 :wq
 :q!
-:q
 :w
 
 # Search String History (newest to oldest):
@@ -101,20 +101,27 @@ $
 	$
 
 # File marks:
-'0  1  1  ~/lab_4/slurm-6121771.out
-'1  121  0  ~/lab_4/slurm-6118854.out
-'2  10  35  ~/lab_4/z_pi_1.sh
-'3  49  0  ~/lab_4/out1.txt
-'4  93  0  ~/lab_4/out3.txt
-'5  45  0  ~/lab_4/out3.txt
-'6  29  0  ~/lab_4/out3.txt
-'7  13  0  ~/lab_4/out3.txt
-'8  1  0  ~/lab_4/out3.txt
-'9  1  1  ~/lab_4/slurm-6118854.out
+'0  406  1  ~/lab_4/slurm-6129181.out
+'1  414  1  ~/lab_4/slurm-6129173.out
+'2  1  1  ~/lab_4/slurm-6121771.out
+'3  191  0  ~/lab_4/slurm-6118854.out
+'4  4  16  ~/lab_4/z_pi_final.sh
+'5  121  0  ~/lab_4/slurm-6118854.out
+'6  10  35  ~/lab_4/z_pi_1.sh
+'7  49  0  ~/lab_4/out1.txt
+'8  93  0  ~/lab_4/out3.txt
+'9  45  0  ~/lab_4/out3.txt
 
 # Jumplist (newest first):
+-'  406  1  ~/lab_4/slurm-6129181.out
+-'  1  1  ~/lab_4/slurm-6129181.out
+-'  414  1  ~/lab_4/slurm-6129173.out
+-'  1  1  ~/lab_4/slurm-6129173.out
 -'  1  1  ~/lab_4/slurm-6121771.out
+-'  191  0  ~/lab_4/slurm-6118854.out
 -'  121  0  ~/lab_4/slurm-6118854.out
+-'  4  16  ~/lab_4/z_pi_final.sh
+-'  3  0  ~/lab_4/z_pi_final.sh
 -'  1  1  ~/lab_4/slurm-6118854.out
 -'  10  35  ~/lab_4/z_pi_1.sh
 -'  8  0  ~/lab_4/z_pi_1.sh
@@ -134,8 +141,7 @@ $
 -'  2  0  ~/lab_4/z_pi_1.sh
 -'  1  0  ~/lab_4/pi_part_1.sh
 -'  4  0  ~/lab_4/z_pi_1.sh
--'  3  18  ~/lab_4/z_pi_final.sh
--'  13  1  ~/lab_4/z_pi_final.sh
+-'  16  1  ~/lab_4/z_pi_final.sh
 -'  3  18  ~/lab_4/z_pi_2.sh
 -'  12  1  ~/lab_4/z_pi_2.sh
 -'  1  0  ~/lab_4/z_pi_final.sh
@@ -206,21 +212,52 @@ $
 -'  85  2  ~/pi_par.c
 -'  1  15  ~/pi_par.c
 -'  169  2  ~/pi_par.c
--'  85  2  ~/pi_par.c
--'  1  0  ~/lab_3/pi_par.c
--'  1  15  ~/pi_par.c
--'  169  2  ~/pi_par.c
--'  85  2  ~/pi_par.c
 
 # History of marks within files (newest to oldest):
+
+> ~/lab_4/slurm-6129181.out
+	"	406	1
+
+> ~/lab_4/slurm-6129173.out
+	"	414	1
 
 > ~/lab_4/slurm-6121771.out
 	"	1	1
 
 > ~/lab_4/slurm-6118854.out
-	"	121	0
+	"	191	0
 	.	1	0
 	+	1	0
+
+> ~/lab_4/z_pi_final.sh
+	"	4	16
+	^	4	17
+	.	4	16
+	+	7	0
+	+	14	16
+	+	16	9
+	+	4	16
+	+	7	17
+	+	9	26
+	+	12	22
+	+	13	0
+	+	14	8
+	+	15	8
+	+	16	29
+	+	18	4
+	+	14	34
+	+	15	26
+	+	14	49
+	+	16	42
+	+	8	8
+	+	11	19
+	+	12	0
+	+	13	1
+	+	14	9
+	+	15	9
+	+	16	44
+	+	17	5
+	+	4	16
 
 > ~/lab_4/z_pi_1.sh
 	"	10	35
@@ -334,15 +371,6 @@ $
 > ~/lab_4/pi_part_1.sh
 	"	1	0
 
-> ~/lab_4/z_pi_final.sh
-	"	3	18
-	^	3	19
-	.	4	0
-	+	7	0
-	+	11	16
-	+	13	9
-	+	4	0
-
 > ~/lab_4/z_pi_2.sh
 	"	3	18
 	^	3	19
@@ -389,10 +417,4 @@ $
 	+	10	26
 
 > ~/lab_3/slurm-6103603.out
-	"	1	1
-
-> ~/lab_3/s_1.out
-	"	1	1
-
-> ~/lab_3/slurm-6103040.out
 	"	1	1
