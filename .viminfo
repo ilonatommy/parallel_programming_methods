@@ -14,8 +14,8 @@
 $
 
 # Command Line History (newest to oldest):
-:q
 :wq
+:q
 :q!
 :w
 
@@ -31,7 +31,7 @@ $
 # Registers:
 "0	CHAR	0
 	$
-""1	LINE	0
+"1	LINE	0
 	
 	    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
 	--------------------------------------------------------------------------
@@ -97,31 +97,52 @@ $
 	
 	You may need to consult with your system administrator to get this
 	problem fixed.  This FAQ entry on the Open MPI web site may also be
-"-	CHAR	0
-	$
+""-	CHAR	0
+	i
 
 # File marks:
-'0  406  1  ~/lab_4/slurm-6129181.out
-'1  414  1  ~/lab_4/slurm-6129173.out
-'2  1  1  ~/lab_4/slurm-6121771.out
-'3  191  0  ~/lab_4/slurm-6118854.out
-'4  4  16  ~/lab_4/z_pi_final.sh
-'5  121  0  ~/lab_4/slurm-6118854.out
-'6  10  35  ~/lab_4/z_pi_1.sh
-'7  49  0  ~/lab_4/out1.txt
-'8  93  0  ~/lab_4/out3.txt
-'9  45  0  ~/lab_4/out3.txt
+'0  18  28  ~/lab_4/z_pi_final.sh
+'1  16  29  ~/lab_4/z_pi_final.sh
+'2  205  0  ~/lab_4/z_out_ns.txt
+'3  40  0  ~/lab_4/pi_par.c
+'4  9  30  ~/lab_4/z_pi_final.sh
+'5  1  0  ~/lab_4/z_pi_f
+'6  1  1  ~/lab_4/slurm-6153890.out
+'7  340  1  ~/lab_4/slurm-6153625.out
+'8  6  13  ~/lab_4/z_pi_final.sh
+'9  5  0  ~/lab_4/z_pi_final.sh
 
 # Jumplist (newest first):
+-'  18  28  ~/lab_4/z_pi_final.sh
+-'  16  10  ~/lab_4/z_pi_final.sh
+-'  9  0  ~/lab_4/z_pi_final.sh
+-'  205  0  ~/lab_4/z_out_ns.txt
+-'  1  0  ~/lab_4/z_out_ns.txt
+-'  40  0  ~/lab_4/pi_par.c
+-'  1  0  ~/lab_4/pi_par.c
+-'  1  0  ~/lab_4/z_pi_f
+-'  1  1  ~/lab_4/slurm-6153890.out
+-'  340  1  ~/lab_4/slurm-6153625.out
+-'  1  1  ~/lab_4/slurm-6153625.out
+-'  6  0  ~/lab_4/z_pi_final.sh
+-'  5  0  ~/lab_4/z_pi_final.sh
+-'  137  1  ~/lab_4/slurm-6153048.out
+-'  1  1  ~/lab_4/slurm-6153048.out
+-'  1  1  ~/lab_4/slurm-6147547.out
+-'  1  1  ~/lab_4/slurm-6146422.out
+-'  1  1  ~/lab_4/slurm-6121771.out
+-'  185  0  ~/lab_4/slurm-6118854.out
+-'  191  0  ~/lab_4/slurm-6118854.out
+-'  3  0  ~/lab_4/z_pi_final.sh
+-'  1  1  ~/lab_4/slurm-6146384.out
+-'  106  1  ~/lab_4/slurm-6146114.out
+-'  1  1  ~/lab_4/slurm-6146114.out
+-'  1  0  ~/lab_4/pi_final.sh
 -'  406  1  ~/lab_4/slurm-6129181.out
 -'  1  1  ~/lab_4/slurm-6129181.out
 -'  414  1  ~/lab_4/slurm-6129173.out
 -'  1  1  ~/lab_4/slurm-6129173.out
--'  1  1  ~/lab_4/slurm-6121771.out
--'  191  0  ~/lab_4/slurm-6118854.out
 -'  121  0  ~/lab_4/slurm-6118854.out
--'  4  16  ~/lab_4/z_pi_final.sh
--'  3  0  ~/lab_4/z_pi_final.sh
 -'  1  1  ~/lab_4/slurm-6118854.out
 -'  10  35  ~/lab_4/z_pi_1.sh
 -'  8  0  ~/lab_4/z_pi_1.sh
@@ -131,17 +152,14 @@ $
 -'  29  0  ~/lab_4/out3.txt
 -'  13  0  ~/lab_4/out3.txt
 -'  1  0  ~/lab_4/out3.txt
--'  1  0  ~/lab_4/pi_final.sh
 -'  46  0  ~/lab_4/out2.txt
 -'  1  0  ~/lab_4/out1
 -'  1  1  ~/lab_4/slurm-6118853.out
 -'  1  0  ~/lab_4/slurm-611885
 -'  20  0  ~/lab_4/pi_par.c
--'  1  0  ~/lab_4/pi_par.c
 -'  2  0  ~/lab_4/z_pi_1.sh
 -'  1  0  ~/lab_4/pi_part_1.sh
 -'  4  0  ~/lab_4/z_pi_1.sh
--'  16  1  ~/lab_4/z_pi_final.sh
 -'  3  18  ~/lab_4/z_pi_2.sh
 -'  12  1  ~/lab_4/z_pi_2.sh
 -'  1  0  ~/lab_4/z_pi_final.sh
@@ -192,72 +210,123 @@ $
 -'  85  2  ~/pi_par.c
 -'  1  0  ~/lab_3/p.sh
 -'  1  0  ~/lab_3/pi_par.c
--'  1  15  ~/pi_par.c
--'  169  2  ~/pi_par.c
--'  85  2  ~/pi_par.c
--'  1  15  ~/pi_par.c
--'  169  2  ~/pi_par.c
--'  85  2  ~/pi_par.c
--'  1  0  ~/lab_3/pi_par.c
--'  1  15  ~/pi_par.c
--'  169  2  ~/pi_par.c
--'  85  2  ~/pi_par.c
--'  1  15  ~/pi_par.c
--'  169  2  ~/pi_par.c
--'  85  2  ~/pi_par.c
--'  1  0  ~/lab_3/p.sh
--'  1  0  ~/lab_3/pi_par.c
--'  1  15  ~/pi_par.c
--'  169  2  ~/pi_par.c
--'  85  2  ~/pi_par.c
--'  1  15  ~/pi_par.c
--'  169  2  ~/pi_par.c
 
 # History of marks within files (newest to oldest):
+
+> ~/lab_4/z_pi_final.sh
+	"	18	28
+	^	18	29
+	.	18	29
+	+	9	0
+	+	16	16
+	+	18	9
+	+	6	16
+	+	9	17
+	+	11	26
+	+	14	22
+	+	15	0
+	+	16	8
+	+	17	8
+	+	18	29
+	+	20	4
+	+	16	34
+	+	17	26
+	+	16	49
+	+	18	42
+	+	10	8
+	+	13	19
+	+	14	0
+	+	15	1
+	+	16	9
+	+	17	9
+	+	18	44
+	+	19	5
+	+	6	16
+	+	3	19
+	+	6	0
+	+	5	26
+	+	6	16
+	+	5	15
+	+	9	31
+	+	9	52
+	+	10	0
+	+	9	51
+	+	10	0
+	+	9	50
+	+	10	0
+	+	9	29
+	+	6	13
+	+	9	51
+	+	10	0
+	+	10	0
+	+	9	49
+	+	10	0
+	+	10	0
+	+	10	0
+	+	9	51
+	+	10	0
+	+	10	0
+	+	10	0
+	+	9	50
+	+	10	0
+	+	9	51
+	+	10	0
+	+	9	50
+	+	10	0
+	+	10	0
+	+	9	50
+	+	10	0
+	+	10	0
+	+	9	31
+	+	16	36
+	+	18	29
+
+> ~/lab_4/z_out_ns.txt
+	"	205	0
+
+> ~/lab_4/pi_par.c
+	"	40	0
+
+> ~/lab_4/z_pi_f
+	"	1	0
+
+> ~/lab_4/slurm-6153890.out
+	"	1	1
+
+> ~/lab_4/slurm-6153625.out
+	"	340	1
+
+> ~/lab_4/slurm-6153048.out
+	"	137	1
+
+> ~/lab_4/slurm-6147547.out
+	"	1	1
+
+> ~/lab_4/slurm-6146422.out
+	"	1	1
+
+> ~/lab_4/slurm-6121771.out
+	"	1	1
+
+> ~/lab_4/slurm-6118854.out
+	"	185	0
+	.	1	0
+	+	1	0
+
+> ~/lab_4/slurm-6146384.out
+	"	1	1
+
+> ~/lab_4/slurm-6146114.out
+	"	106	1
+
+> ~/lab_4/pi_final.sh
+	"	1	0
 
 > ~/lab_4/slurm-6129181.out
 	"	406	1
 
 > ~/lab_4/slurm-6129173.out
 	"	414	1
-
-> ~/lab_4/slurm-6121771.out
-	"	1	1
-
-> ~/lab_4/slurm-6118854.out
-	"	191	0
-	.	1	0
-	+	1	0
-
-> ~/lab_4/z_pi_final.sh
-	"	4	16
-	^	4	17
-	.	4	16
-	+	7	0
-	+	14	16
-	+	16	9
-	+	4	16
-	+	7	17
-	+	9	26
-	+	12	22
-	+	13	0
-	+	14	8
-	+	15	8
-	+	16	29
-	+	18	4
-	+	14	34
-	+	15	26
-	+	14	49
-	+	16	42
-	+	8	8
-	+	11	19
-	+	12	0
-	+	13	1
-	+	14	9
-	+	15	9
-	+	16	44
-	+	17	5
-	+	4	16
 
 > ~/lab_4/z_pi_1.sh
 	"	10	35
@@ -328,9 +397,6 @@ $
 	+	89	0
 	+	93	0
 
-> ~/lab_4/pi_final.sh
-	"	1	0
-
 > ~/lab_4/out2.txt
 	"	46	0
 	.	46	0
@@ -346,75 +412,3 @@ $
 	+	38	0
 	+	42	0
 	+	46	0
-
-> ~/lab_4/out1
-	"	1	0
-
-> ~/lab_4/slurm-6118853.out
-	"	1	1
-
-> ~/.ssh/id_rsa.pub
-	"	1	0
-
-> ~/lab_4/slurm-6118852.out
-	"	1	0
-	^	1	1
-	.	1	1
-	+	1	1
-
-> ~/lab_4/slurm-611885
-	"	1	0
-
-> ~/lab_4/pi_par.c
-	"	20	0
-
-> ~/lab_4/pi_part_1.sh
-	"	1	0
-
-> ~/lab_4/z_pi_2.sh
-	"	3	18
-	^	3	19
-	.	3	19
-	+	2	17
-	+	7	0
-	+	12	9
-	+	3	19
-
-> ~/lab_3/pi.sh
-	"	10	2
-	^	10	26
-	.	10	26
-	+	3	33
-	+	1	13
-	+	4	31
-	+	5	31
-	+	2	0
-	+	3	0
-	+	7	0
-	+	12	0
-	+	10	10
-	+	6	26
-	+	5	0
-	+	7	0
-	+	8	0
-	+	10	0
-	+	8	0
-	+	7	0
-	+	10	1
-	+	9	16
-	+	10	37
-	+	10	5
-	+	9	9
-	+	10	16
-	+	9	9
-	+	8	30
-	+	9	15
-	+	9	0
-	+	10	2
-	+	10	34
-	+	9	15
-	+	11	0
-	+	10	26
-
-> ~/lab_3/slurm-6103603.out
-	"	1	1

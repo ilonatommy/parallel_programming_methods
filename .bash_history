@@ -367,3 +367,253 @@ vim z_pi_final.sh
 sbatch z_pi_final.sh 
 squeue --start
 exit
+squeue --start
+ls
+cd lab_4
+ls
+vim slurm-6118854.out 
+stat slurm-6118854.out 
+stat slurm-6121771.out 
+stat slurm-6129173.out 
+stat slurm-6129181.out 
+ls
+vim slurm-6121771.out 
+vim slurm-6129173.out 
+vim slurm-6129181.out 
+cd ..
+git pull origin master
+cd lab_4
+ls
+cd ..
+git add .
+git commit -m "Results of experiments on Zeus"
+git push origin master
+git push git@github.com:ilonatommy/parallel_programming_methods.git master
+exit
+ls
+cd lab_4
+ls
+vim z_pi_final.sh 
+module add plgrid/tools/openmpi
+sbatch z_pi_final.sh 
+vim z_pi_final.sh 
+sbatch z_pi_final.sh 
+git add .squeue --start
+squeue --start
+sbatch z_pi_final.sh 
+vim z_pi_final.sh 
+sbatch z_pi_final.sh 
+squeue --start
+ls
+vim slurm-6147547.out 
+ls
+cd lab_4
+ls
+vim pi_final.sh 
+vim z_pi_final.sh 
+sbatch z_pi_final.sh 
+squeue --start
+sbatch z_pi_final.sh 
+squeue --start
+ls
+vim slurm-6146114.out 
+squeue --start
+vim z_pi_final.sh 
+sbatch z_pi_final.sh 
+squeue --start
+ls
+vim slurm-6146384.out 
+vim z_pi_final.sh 
+sbatch z_pi_final.sh 
+squeue --start
+ls
+vim slurm-6146422.out 
+ls
+vim slurm-6118854.out 
+vim slurm-6121771.out 
+vim slurm-6146422.out 
+squeue --start
+ls
+cd lab_4
+sbatch z_pi_final.sh 
+squeue --start
+ls
+vim slurm-6153048.out 
+cd lab_4
+vim z_pi_final.sh 
+ - module spider openmpi
+module spider openmpi
+module purge
+ls
+vim z_pi_final.sh 
+sbatch z_pi_final.sh 
+squeue --start
+vim z_pi_final.sh 
+module purge
+sbatch z_pi_final.sh 
+squeue --start
+vim z_pi_final.sh 
+module purge
+sbatch z_pi_final.sh 
+squeue --start
+vim z_pi_final.sh 
+module purge
+sbatch z_pi_final.sh 
+squeue --start
+vim z_pi_final.sh 
+module purge
+sbatch z_pi_final.sh 
+squeue --start
+module spider openmpi
+vim z_pi_final.sh 
+module purge
+sbatch z_pi_final.sh 
+squeue --start
+vim z_pi_final.sh 
+sbatch z_pi_final.sh 
+squeue --start
+module purge
+squeue --start
+vim z_pi_final.sh 
+module purge
+sbatch z_pi_final.sh 
+squeue --start
+vim z_pi_final.sh 
+module purge
+sbatch z_pi_final.sh 
+squeue --start
+vim z_pi_final.sh 
+module purge
+sbatch z_pi_final.sh 
+squeue --star
+vim z_pi_final.sh 
+module purge
+sbatch z_pi_final.sh 
+squeue --star
+module purge
+vim z_pi_final.sh 
+sbatch z_pi_final.sh 
+squeue --star
+ls
+squeue --star
+vim z_pi_final.sh 
+squeue --star
+ls
+vim slurm-6153625.out 
+module purge
+vim z_pi_final.sh 
+module spider openmpi
+vim z_pi_final.sh 
+sbatch z_pi_final.sh 
+squeue --star
+module purge
+vim z_pi_final.sh 
+sbatch z_pi_final.sh 
+squeue --star
+vim z_pi_final.sh 
+module purge
+sbatch z_pi_final.sh 
+squeue --star
+vim z_pi_final.sh 
+module purge
+sbatch z_pi_final.sh 
+squeue --star
+vim z_pi_final.sh 
+module purge
+sbatch z_pi_final.sh 
+squeue --star
+vim z_pi_final.sh 
+module purge
+sbatch z_pi_final.sh 
+squeue --star
+vim z_pi_final.sh 
+module purge
+sbatch z_pi_final.sh 
+squeue --star
+vim z_pi_final.sh 
+module purge
+sbatch z_pi_final.sh 
+squeue --star
+module spider openmpi
+vim z_pi_final.sh 
+sbatch z_pi_final.sh 
+squeue --star
+vim z_pi_final.sh 
+module purge
+sbatch z_pi_final.sh 
+squeue --star
+vim z_pi_final.sh 
+module purge
+sbatch z_pi_final.sh 
+squeue --star
+vim z_pi_final.sh 
+module purge
+sbatch z_pi_final.sh 
+squeue --star
+vim z_pi_final.sh 
+module purge
+sbatch z_pi_final.sh 
+squeue --star
+vim z_pi_final.sh 
+module purge
+sbatch z_pi_final.sh 
+squeue --star
+vim z_pi_final.sh 
+module purge
+sbatch z_pi_final.sh 
+squeue --star
+vim z_pi_final.sh 
+module purge
+sbatch z_pi_final.sh 
+squeue --star
+vim z_pi_final.sh 
+module spider openmpi
+vim z_pi_final.sh 
+module purge
+sbatch z_pi_final.sh 
+
+vim z_pi_final.sh 
+module purge
+sbatch z_pi_final.sh 
+squeue --star
+vim z_pi_final.sh 
+module purge
+sbatch z_pi_final.sh 
+squeue --star
+vim z_pi_final.sh 
+module purge
+sbatch z_pi_final.sh 
+squeue --star
+vim z_pi_final.sh 
+module purge
+sbatch z_pi_final.sh 
+squeue --star
+vim z_pi_final.sh 
+module purge
+sbatch z_pi_final.sh 
+squeue --star
+vim z_pi_final.sh 
+module purge
+
+squeue --star
+vim z_pi_final.sh 
+module purge
+sbatch z_pi_final.sh 
+squeue --star
+vim z_pi_final.sh 
+module purge
+sbatch z_pi_final.sh 
+squeue --star
+module spider openmpi
+squeue --star
+ls
+squeue --start
+ls
+cd lab_4
+ls
+vim slurm-6153890.out 
+vim z_pi_f
+vim z_pi_final.sh 
+vim pi_par.c
+vim z_out_ns.txt 
+vim z_pi_final.sh 
