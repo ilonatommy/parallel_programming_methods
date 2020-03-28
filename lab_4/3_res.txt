@@ -1,0 +1,1847 @@
+ plgrid/tools/gcc/4.9.2 loaded.
+ plgrid/tools/java7/oracle/1.7.0_51 loaded.
+ plgrid/tools/openmpi/1.10.2-gnu-4.9.2-ib loaded.
+[n0809-g7x:02044] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_plm_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x:02044] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_ras_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x][[18858,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n0809-g7x
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+1, 3.14118, 0.447401
+[n0809-g7x:02050] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_plm_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x:02050] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_ras_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x][[18004,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n0809-g7x
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+1, 3.1417, 0.488798
+[n0809-g7x:02056] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_plm_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x:02056] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_ras_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x][[18014,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n0809-g7x
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n0809-g7x][[18014,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+2, 3.14213, 0.256094
+[n0809-g7x:02056] 1 more process has sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n0809-g7x:02056] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[n0809-g7x:02066] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_plm_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x:02066] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_ras_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x][[17988,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17988,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n0809-g7x
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+2, 3.14214, 0.455563
+[n0809-g7x:02066] 1 more process has sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n0809-g7x:02066] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[n0809-g7x:02076] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_plm_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x:02076] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_ras_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n0809-g7x
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n0809-g7x][[17994,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17994,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17994,1],2][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+3, 3.14094, 0.230188
+[n0809-g7x:02076] 2 more processes have sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n0809-g7x:02076] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[n0809-g7x:02090] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_plm_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x:02090] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_ras_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n0809-g7x
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n0809-g7x][[18044,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18044,1],2][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18044,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+3, 3.14064, 0.454984
+[n0809-g7x:02090] 2 more processes have sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n0809-g7x:02090] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[n0809-g7x:02104] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_plm_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x:02104] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_ras_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x][[18030,1],3][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18030,1],2][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n0809-g7x
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n0809-g7x][[18030,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18030,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+4, 3.14253, 0.182724
+[n0809-g7x:02104] 3 more processes have sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n0809-g7x:02104] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[n0809-g7x:02122] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_plm_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x:02122] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_ras_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n0809-g7x
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n0809-g7x][[17948,1],3][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17948,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17948,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17948,1],2][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+4, 3.14196, 0.453173
+[n0809-g7x:02122] 3 more processes have sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n0809-g7x:02122] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[n0809-g7x:02140] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_plm_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x:02140] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_ras_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x][[17930,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17930,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17930,1],4][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n0809-g7x
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n0809-g7x][[17930,1],2][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17930,1],3][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+5, 3.1421, 0.152317
+[n0809-g7x:02140] 4 more processes have sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n0809-g7x:02140] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[n0809-g7x:02162] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_plm_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x:02162] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_ras_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n0809-g7x
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n0809-g7x][[17956,1],4][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17956,1],2][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17956,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17956,1],3][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17956,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+5, 3.14136, 0.464188
+[n0809-g7x:02162] 4 more processes have sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n0809-g7x:02162] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[n0809-g7x:02184] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_plm_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x:02184] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_ras_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n0809-g7x
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n0809-g7x][[18142,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18142,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18142,1],2][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18142,1],4][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18142,1],5][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18142,1],3][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+6, 3.14153, 0.124561
+[n0809-g7x:02184] 5 more processes have sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n0809-g7x:02184] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[n0809-g7x:02210] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_plm_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x:02210] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_ras_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x][[18164,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n0809-g7x
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n0809-g7x][[18164,1],5][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18164,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18164,1],2][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18164,1],4][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18164,1],3][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+6, 3.14167, 0.477674
+[n0809-g7x:02210] 5 more processes have sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n0809-g7x:02210] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[n0809-g7x:02236] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_plm_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x:02236] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_ras_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x][[18154,1],4][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n0809-g7x
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n0809-g7x][[18154,1],2][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18154,1],3][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18154,1],5][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18154,1],6][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18154,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18154,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+7, 3.14205, 0.107307
+[n0809-g7x:02236] 6 more processes have sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n0809-g7x:02236] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[n0809-g7x:02266] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_plm_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x:02266] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_ras_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x][[18060,1],6][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18060,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18060,1],2][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n0809-g7x
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n0809-g7x][[18060,1],4][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18060,1],5][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18060,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18060,1],3][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+7, 3.14082, 0.514652
+[n0809-g7x:02266] 6 more processes have sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n0809-g7x:02266] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[n0809-g7x:02300] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_plm_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x:02300] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_ras_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x][[18090,1],3][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n0809-g7x
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n0809-g7x][[18090,1],4][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18090,1],6][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18090,1],7][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18090,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18090,1],2][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18090,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18090,1],5][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+8, 3.14092, 0.0935688
+[n0809-g7x:02300] 7 more processes have sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n0809-g7x:02300] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[n0809-g7x:02353] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_plm_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x:02353] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_ras_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n0809-g7x
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n0809-g7x][[18279,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18279,1],2][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18279,1],3][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18279,1],7][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18279,1],4][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18279,1],5][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18279,1],6][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18279,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+8, 3.14196, 0.481237
+[n0809-g7x:02353] 7 more processes have sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n0809-g7x:02353] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[n0809-g7x:02387] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_plm_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x:02387] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_ras_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x][[18181,1],3][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n0809-g7x
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n0809-g7x][[18181,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18181,1],6][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18181,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18181,1],2][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18181,1],4][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18181,1],5][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18181,1],7][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18181,1],8][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+9, 3.14153, 0.08285
+[n0809-g7x:02387] 8 more processes have sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n0809-g7x:02387] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[n0809-g7x:02428] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_plm_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x:02428] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_ras_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x][[18218,1],4][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n0809-g7x
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n0809-g7x][[18218,1],2][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18218,1],3][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18218,1],5][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18218,1],6][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18218,1],7][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18218,1],8][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18218,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18218,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+9, 3.14255, 0.487506
+[n0809-g7x:02428] 8 more processes have sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n0809-g7x:02428] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[n0809-g7x:02466] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_plm_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x:02466] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_ras_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x][[18420,1],6][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n0809-g7x
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n0809-g7x][[18420,1],9][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18420,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18420,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18420,1],2][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18420,1],3][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18420,1],4][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18420,1],5][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18420,1],7][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18420,1],8][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+10, 3.14266, 0.0757
+[n0809-g7x:02466] 9 more processes have sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n0809-g7x:02466] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[n0809-g7x:02511] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_plm_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x:02511] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_ras_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x][[18329,1],3][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18329,1],5][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n0809-g7x
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n0809-g7x][[18329,1],6][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18329,1],7][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18329,1],8][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18329,1],9][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18329,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18329,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18329,1],2][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18329,1],4][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+10, 3.14215, 0.483687
+[n0809-g7x:02511] 9 more processes have sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n0809-g7x:02511] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[n0809-g7x:02553] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_plm_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x:02553] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_ras_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x][[18351,1],9][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18351,1],3][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18351,1],7][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n0809-g7x
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n0809-g7x][[18351,1],5][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18351,1],4][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18351,1],10][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18351,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18351,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18351,1],2][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18351,1],6][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[18351,1],8][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+11, 3.13864, 0.068619
+[n0809-g7x:02553] 10 more processes have sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n0809-g7x:02553] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[n0809-g7x:02599] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_plm_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x:02599] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_ras_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x][[17521,1],9][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17521,1],3][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n0809-g7x
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n0809-g7x][[17521,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17521,1],10][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17521,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17521,1],2][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17521,1],4][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17521,1],5][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17521,1],6][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17521,1],8][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17521,1],7][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+11, 3.14165, 0.466641
+[n0809-g7x:02599] 10 more processes have sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n0809-g7x:02599] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[n0809-g7x:02645] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_plm_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x:02645] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_ras_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x][[17411,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n0809-g7x
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n0809-g7x][[17411,1],8][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17411,1],9][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17411,1],10][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17411,1],11][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17411,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17411,1],2][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17411,1],4][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17411,1],5][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17411,1],6][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17411,1],7][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17411,1],3][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+12, 3.14441, 0.0643449
+[n0809-g7x:02645] 11 more processes have sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n0809-g7x:02645] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[n0809-g7x:02695] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_plm_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x:02695] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_ras_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x][[17617,1],11][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n0809-g7x
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n0809-g7x][[17617,1],5][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17617,1],6][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17617,1],7][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17617,1],8][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17617,1],10][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17617,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17617,1],2][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17617,1],3][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17617,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17617,1],4][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17617,1],9][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+12, 3.14204, 0.499156
+[n0809-g7x:02695] 11 more processes have sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n0809-g7x:02695] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[n0809-g7x:02746] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_plm_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x:02746] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_ras_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x][[17644,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n0809-g7x
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+1, 3.14163, 38.8295
+[n0809-g7x:02754] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_plm_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x:02754] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_ras_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x][[17556,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n0809-g7x
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+1, 3.14158, 38.8732
+[n0809-g7x:02761] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_plm_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x:02761] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_ras_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x][[17567,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17567,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n0809-g7x
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n0809-g7x:02761] 1 more process has sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n0809-g7x:02761] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+2, 3.14159, 19.7652
+[n0809-g7x:02774] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_plm_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x:02774] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_ras_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x][[17536,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17536,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n0809-g7x
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n0809-g7x:02774] 1 more process has sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n0809-g7x:02774] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+2, 3.14156, 39.7751
+[n0809-g7x:02788] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_plm_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x:02788] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_ras_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n0809-g7x
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n0809-g7x][[17586,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17586,1],2][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17586,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x:02788] 2 more processes have sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n0809-g7x:02788] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+3, 3.14174, 13.1288
+[n0809-g7x:02803] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_plm_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x:02803] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_ras_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n0809-g7x
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n0809-g7x][[17573,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17573,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17573,1],2][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x:02803] 2 more processes have sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n0809-g7x:02803] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+3, 3.14162, 39.3456
+[n0809-g7x:02819] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_plm_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x:02819] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_ras_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n0809-g7x
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n0809-g7x][[17749,1],2][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17749,1],3][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17749,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17749,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x:02819] 3 more processes have sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n0809-g7x:02819] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+4, 3.14171, 9.8763
+[n0809-g7x:02837] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_plm_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x:02837] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_ras_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n0809-g7x
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n0809-g7x][[17731,1],2][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17731,1],3][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17731,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17731,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x:02837] 3 more processes have sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n0809-g7x:02837] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+4, 3.1416, 39.3709
+[n0809-g7x:02858] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_plm_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x:02858] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_ras_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x][[17788,1],2][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n0809-g7x
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n0809-g7x][[17788,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17788,1],3][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17788,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17788,1],4][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x:02858] 4 more processes have sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n0809-g7x:02858] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+5, 3.14157, 8.36263
+[n0809-g7x:02881] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_plm_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x:02881] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_ras_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n0809-g7x
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n0809-g7x][[17687,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17687,1],4][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17687,1],2][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17687,1],3][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17687,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x:02881] 4 more processes have sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n0809-g7x:02881] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+5, 3.14154, 41.1177
+[n0809-g7x:02910] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_plm_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x:02910] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_ras_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x][[17672,1],3][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17672,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n0809-g7x
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n0809-g7x][[17672,1],2][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17672,1],4][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17672,1],5][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17672,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x:02910] 5 more processes have sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n0809-g7x:02910] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+6, 3.14156, 6.8994
+[n0809-g7x:02937] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_plm_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x:02937] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_ras_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x][[17711,1],3][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n0809-g7x
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n0809-g7x][[17711,1],2][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17711,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17711,1],4][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17711,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17711,1],5][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x:02937] 5 more processes have sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n0809-g7x:02937] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+6, 3.14159, 41.2696
+[n0809-g7x:02971] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_plm_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x:02971] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_ras_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x][[17869,1],6][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17869,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n0809-g7x
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n0809-g7x][[17869,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17869,1],2][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17869,1],3][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17869,1],4][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17869,1],5][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x:02971] 6 more processes have sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n0809-g7x:02971] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+7, 3.14168, 5.93552
+[n0809-g7x:03001] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_plm_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x:03001] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_ras_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x][[17903,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17903,1],6][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n0809-g7x
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n0809-g7x][[17903,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17903,1],2][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17903,1],4][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17903,1],5][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17903,1],3][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x:03001] 6 more processes have sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n0809-g7x:03001] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+7, 3.14163, 41.206
+[n0809-g7x:03080] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_plm_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x:03080] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_ras_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x][[16990,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[16990,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[16990,1],6][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n0809-g7x
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n0809-g7x][[16990,1],4][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[16990,1],7][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[16990,1],2][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[16990,1],3][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[16990,1],5][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x:03080] 7 more processes have sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n0809-g7x:03080] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+8, 3.14162, 5.21176
+[n0809-g7x:03124] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_plm_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x:03124] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_ras_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x][[16994,1],2][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n0809-g7x
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n0809-g7x][[16994,1],4][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[16994,1],5][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[16994,1],6][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[16994,1],7][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[16994,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[16994,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[16994,1],3][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x:03124] 7 more processes have sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n0809-g7x:03124] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+8, 3.14158, 41.1522
+[n0809-g7x:03176] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_plm_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x:03176] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_ras_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n0809-g7x
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n0809-g7x][[16958,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[16958,1],5][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[16958,1],6][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[16958,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[16958,1],2][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[16958,1],4][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[16958,1],8][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[16958,1],7][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[16958,1],3][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+9, 3.14179, 4.73215
+[n0809-g7x:03176] 8 more processes have sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n0809-g7x:03176] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[n0809-g7x:03221] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_plm_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x:03221] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_ras_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n0809-g7x
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n0809-g7x][[17091,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17091,1],5][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17091,1],3][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17091,1],4][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17091,1],6][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17091,1],8][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17091,1],2][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17091,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17091,1],7][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x:03221] 8 more processes have sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n0809-g7x:03221] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+9, 3.14156, 41.279
+[n0809-g7x:03267] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_plm_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x:03267] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_ras_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x][[17045,1],5][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n0809-g7x
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n0809-g7x][[17045,1],6][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17045,1],8][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17045,1],9][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17045,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17045,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17045,1],2][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17045,1],3][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17045,1],4][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17045,1],7][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+10, 3.14155, 4.16592
+[n0809-g7x:03267] 9 more processes have sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n0809-g7x:03267] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[n0809-g7x:03309] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_plm_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x:03309] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_ras_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x][[17083,1],6][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17083,1],9][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17083,1],4][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n0809-g7x
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n0809-g7x][[17083,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17083,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17083,1],3][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17083,1],8][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17083,1],2][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17083,1],7][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17083,1],5][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x:03309] 9 more processes have sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n0809-g7x:03309] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+10, 3.14159, 41.1576
+[n0809-g7x:03355] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_plm_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x:03355] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_ras_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x][[17229,1],5][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17229,1],9][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n0809-g7x
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n0809-g7x][[17229,1],2][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17229,1],6][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17229,1],10][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17229,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17229,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17229,1],7][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17229,1],4][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17229,1],3][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17229,1],8][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+11, 3.14154, 3.93129
+[n0809-g7x:03355] 10 more processes have sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n0809-g7x:03355] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[n0809-g7x:03404] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_plm_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x:03404] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_ras_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n0809-g7x
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n0809-g7x][[17178,1],10][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17178,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17178,1],4][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17178,1],6][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17178,1],7][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17178,1],8][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17178,1],9][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17178,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17178,1],2][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17178,1],3][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17178,1],5][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x:03404] 10 more processes have sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n0809-g7x:03404] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+11, 3.14156, 42.7074
+[n0809-g7x:03457] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_plm_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x:03457] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_ras_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n0809-g7x
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n0809-g7x][[17367,1],8][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17367,1],11][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17367,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17367,1],9][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17367,1],10][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17367,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17367,1],2][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17367,1],3][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17367,1],4][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17367,1],5][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17367,1],6][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17367,1],7][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+12, 3.14165, 3.57048
+[n0809-g7x:03457] 11 more processes have sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n0809-g7x:03457] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+[n0809-g7x:03510] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_plm_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x:03510] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_ras_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x][[17376,1],9][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n0809-g7x
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n0809-g7x][[17376,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17376,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17376,1],2][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17376,1],3][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17376,1],5][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17376,1],6][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17376,1],7][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17376,1],8][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17376,1],10][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17376,1],11][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[17376,1],4][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x:03510] 11 more processes have sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n0809-g7x:03510] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+12, 3.14158, 42.81
+[n0809-g7x:03577] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_plm_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x:03577] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_ras_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x][[17327,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n0809-g7x
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+1, 3.1416, 1552.77
+[n0809-g7x:03692] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_plm_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x:03692] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_ras_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x][[16442,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n0809-g7x
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+1, 3.14159, 1552.71
+[n0809-g7x:03815] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_plm_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x:03815] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_ras_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x][[16561,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[16561,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n0809-g7x
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n0809-g7x:03815] 1 more process has sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n0809-g7x:03815] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+2, 3.14161, 782.675
+[n0809-g7x:03872] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_plm_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x:03872] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_ras_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x][[16758,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[16758,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n0809-g7x
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n0809-g7x:03872] 1 more process has sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n0809-g7x:03872] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+2, 3.1416, 1567.82
+[n0809-g7x:03991] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_plm_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x:03991] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_ras_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n0809-g7x
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n0809-g7x][[16833,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[16833,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[16833,1],2][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x:03991] 2 more processes have sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n0809-g7x:03991] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+3, 3.14158, 524.021
+[n0809-g7x:04043] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_plm_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x:04043] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_ras_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n0809-g7x
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n0809-g7x][[16797,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[16797,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[16797,1],2][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x:04043] 2 more processes have sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n0809-g7x:04043] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+3, 3.14158, 1576.52
+[n0809-g7x:04171] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_plm_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x:04171] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_ras_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n0809-g7x
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n0809-g7x][[24093,1],2][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[24093,1],3][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[24093,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[24093,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x:04171] 3 more processes have sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n0809-g7x:04171] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+4, 3.14162, 392.234
+[n0809-g7x:04217] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_plm_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x:04217] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_ras_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n0809-g7x
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n0809-g7x][[24111,1],2][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[24111,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[24111,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[24111,1],3][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x:04217] 3 more processes have sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n0809-g7x:04217] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+4, 3.14159, 1567.63
+[n0809-g7x:04336] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_plm_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x:04336] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_ras_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x][[24230,1],2][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n0809-g7x
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n0809-g7x][[24230,1],3][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[24230,1],4][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[24230,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[24230,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x:04336] 4 more processes have sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n0809-g7x:04336] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+5, 3.14159, 324.617
+[n0809-g7x:04394] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_plm_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x:04394] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_ras_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x][[24444,1],4][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[24444,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n0809-g7x
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n0809-g7x][[24444,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[24444,1],2][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[24444,1],3][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x:04394] 4 more processes have sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n0809-g7x:04394] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+5, 3.1416, 1622.75
+[n0809-g7x:04578] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_plm_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x:04578] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_ras_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x][[24500,1],3][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[24500,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n0809-g7x
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n0809-g7x][[24500,1],4][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[24500,1],5][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[24500,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[24500,1],2][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x:04578] 5 more processes have sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n0809-g7x:04578] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+6, 3.14156, 275.514
+[n0809-g7x:04620] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_plm_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x:04620] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_ras_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x][[23642,1],3][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[23642,1],4][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n0809-g7x
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n0809-g7x][[23642,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[23642,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[23642,1],2][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[23642,1],5][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x:04620] 5 more processes have sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n0809-g7x:04620] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+6, 3.14159, 1651.63
+[n0809-g7x:04820] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_plm_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x:04820] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_ras_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x][[23682,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[23682,1],4][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n0809-g7x
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n0809-g7x][[23682,1],3][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[23682,1],5][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[23682,1],6][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[23682,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[23682,1],2][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x:04820] 6 more processes have sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n0809-g7x:04820] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+7, 3.1416, 235.638
+[n0809-g7x:04866] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_plm_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x:04866] mca: base: component_find: unable to open /software/local/el6/COMMON/OpenMPI/1.10.2/ib/gcc/4.9.2/lib/openmpi/mca_ras_tm: libtorque.so.2: cannot open shared object file: No such file or directory (ignored)
+[n0809-g7x][[23892,1],3][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[23892,1],4][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+--------------------------------------------------------------------------
+The OpenFabrics (openib) BTL failed to initialize while trying to
+allocate some locked memory.  This typically can indicate that the
+memlock limits are set too low.  For most HPC installations, the
+memlock limits should be set to "unlimited".  The failure occured
+here:
+
+  Local host:    n0809-g7x
+  OMPI source:   btl_openib.c:794
+  Function:      ompi_free_list_init_ex_new()
+  Device:        mlx4_0
+  Memlock limit: 65536
+
+You may need to consult with your system administrator to get this
+problem fixed.  This FAQ entry on the Open MPI web site may also be
+helpful:
+
+    http://www.open-mpi.org/faq/?category=openfabrics#ib-locked-pages
+--------------------------------------------------------------------------
+[n0809-g7x][[23892,1],0][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[23892,1],2][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[23892,1],5][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[23892,1],1][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x][[23892,1],6][btl_openib.c:873:mca_btl_openib_add_procs] could not prepare openib device for use
+[n0809-g7x:04866] 6 more processes have sent help message help-mpi-btl-openib.txt / init-fail-no-mem
+[n0809-g7x:04866] Set MCA parameter "orte_base_help_aggregate" to 0 to see all help / error messages
+slurmstepd: error: *** JOB 6154385 ON n0809-g7x CANCELLED AT 2020-03-27T21:10:05 DUE TO TIME LIMIT ***
